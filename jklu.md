@@ -171,7 +171,3 @@ Averages are a fundamental statistical concept but can sometimes lead to unexpec
   - This continuous evolution prevents exploitation and enhances user experience.
 
 ---
-
-## Conclusion
-
-The workshop highlighted the interplay between computing concepts and real-world scenarios. By examining games like Sudarshan's Inc, we learned about strategic thinking and the implications of statistical averages. The discussions on auctions, CAPTCHAs, and recommendation algorithms showcased how computational principles affect everyday technologies and systems. Understanding these concepts not only enhances our computational thinking but also prepares us to navigate and contribute to an increasingly digital world.
