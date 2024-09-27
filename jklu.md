@@ -171,3 +171,220 @@ Averages are a fundamental statistical concept but can sometimes lead to unexpec
   - This continuous evolution prevents exploitation and enhances user experience.
 
 ---
+
+# Joy of Computing Workshop - Afternoon Session
+
+## Introduction
+
+In the afternoon session of the Joy of Computing workshop, we delved into fascinating concepts that bridge social interactions, probability, and decision-making algorithms. The session covered:
+
+- **Impression Network Data Collection**: An exercise in social networking and data analysis.
+- **Markov Chains and Mood Switching**: Exploring state transitions and convergence through simulations.
+- **The Online Hiring Problem**: Understanding optimal stopping theory and its real-world applications.
+
+---
+
+## 1. Impression Network Data Collection
+
+### Activity Overview
+
+We began with an interactive exercise designed to map social impressions within the classroom:
+
+- **Task**: Each participant was asked to engage with others and note down the names of individuals they found impressive.
+- **Objective**: To collect data that represents a network graph of students based on mutual impressions.
+
+### Brainstorming and Analysis
+
+We encouraged you to brainstorm and formulate deep questions about the collected data:
+
+#### a. Potential Inferences
+
+- **Identifying Influencers**: Who are the most frequently mentioned individuals?
+- **Community Clusters**: Are there subgroups within the class where impressions are stronger?
+- **Reciprocity**: Do impressions tend to be mutual?
+
+#### b. Types of Analysis
+
+- **Network Analysis**: Using graph theory to analyze connections.
+  - **Degree Centrality**: Measuring the number of direct connections each individual has.
+  - **Betweenness Centrality**: Identifying individuals who act as bridges between groups.
+- **Sentiment Analysis**: If additional data is available (e.g., reasons for impressions), analyzing the sentiments behind them.
+- **Visualization**: Creating network graphs to visually represent relationships.
+
+#### c. Potential Business Ideas
+
+- **Personalized Networking Platforms**: Creating apps that help people identify and connect with influential individuals.
+- **Team Building Tools**: Assisting organizations in forming effective teams based on interpersonal impressions.
+- **Marketing Strategies**: Leveraging influential individuals for product promotions within social networks.
+
+---
+
+## 2. Markov Chains and Mood Switching
+
+### Introduction to Markov Chains
+
+A **Markov chain** is a mathematical system that undergoes transitions from one state to another on a state space. It is characterized by being **memoryless**—the next state depends only on the current state and not on the sequence of events that preceded it.
+
+### Two-State Markov Chain: Happy and Sad
+
+#### a. Setting Up the Model
+
+- **States**: Happy (H) and Sad (S).
+- **Transition Probabilities**:
+  - Probability of staying in the same state or switching to the other.
+  - Represented in a **transition matrix**.
+
+#### b. Excel Simulation
+
+- **Initial Distribution**: An initial number of people in each state.
+- **Iterations**:
+  - Applied the transition probabilities to update the state distribution over several iterations.
+- **Observation**:
+  - The number of people in each state fluctuated initially.
+  - After approximately 10 iterations, the distribution converged.
+
+#### c. Convergence to Steady-State Distribution
+
+- **Steady-State**: The state where the distribution remains constant over iterations.
+- **Properties**:
+  - Independent of the initial distribution.
+  - Determined solely by the transition probabilities.
+- **Mathematical Explanation**:
+  - The steady-state distribution is the **eigenvector** associated with the eigenvalue 1 of the transition matrix.
+
+### Three-State Markov Chain: Park, Apartment, Restaurant
+
+#### a. Expanding the Model
+
+- **States**: Park (P), Apartment (A), Restaurant (R).
+- **Transition Matrix**:
+  - A 3x3 matrix representing probabilities of moving between states.
+
+#### b. Observations
+
+- **Convergence**:
+  - Similar to the two-state model, the system converged to a steady-state distribution.
+- **Interpretation**:
+  - Regardless of where people start, they eventually spend a predictable proportion of time in each location.
+
+### Why Does Convergence Occur?
+
+#### a. Role of Eigenvectors and Eigenvalues
+
+- **Eigenvectors**:
+  - Vectors that do not change direction under a linear transformation.
+- **Eigenvalues**:
+  - Scalars representing how the eigenvector is scaled during the transformation.
+- **In Markov Chains**:
+  - The steady-state distribution is the normalized eigenvector corresponding to the eigenvalue 1.
+
+#### b. Mathematical Insight
+
+- **Transition Matrix \( T \)**:
+  - Describes the probabilities of moving from one state to another.
+- **Steady-State Condition**:
+  - \( T \cdot \pi = \pi \), where \( \pi \) is the steady-state distribution.
+- **Convergence**:
+  - Due to the **Perron-Frobenius theorem**, which guarantees a unique largest eigenvalue (which is 1 for stochastic matrices) and a corresponding positive eigenvector.
+
+### Connection to Hidden Markov Models
+
+While we discussed Markov chains, it's important to distinguish them from **Hidden Markov Models (HMMs)**:
+
+- **Markov Chains**:
+  - The states are directly observable.
+- **Hidden Markov Models**:
+  - The states are not directly observable (hidden), but outputs dependent on the states are observable.
+- **Applications**:
+  - HMMs are widely used in fields like speech recognition, bioinformatics, and finance.
+
+---
+
+## 3. The Online Hiring Problem (Secretary Problem)
+
+### Problem Description
+
+You are faced with a sequence of options (e.g., job applicants, salaries, potential partners) that you must evaluate one at a time:
+
+- **Objective**: Select the best (e.g., highest salary, most qualified applicant).
+- **Constraints**:
+  - You cannot return to a previous option once you have rejected it.
+  - You must decide immediately after viewing each option whether to accept or reject it.
+
+### Optimal Stopping Theory
+
+This problem is a classic example of the **Optimal Stopping Theory** in probability and statistics.
+
+#### a. The Strategy
+
+- **Sampling Phase**:
+  - **Reject** the first \( n/e \) candidates outright (where \( n \) is the total number of candidates and \( e \) is Euler's number, approximately 2.71828).
+  - **Record** the highest value among the sampled candidates.
+- **Selection Phase**:
+  - **Accept** the first candidate who is better than all the candidates in the sampling phase.
+- **Outcome**:
+  - This strategy maximizes the probability of selecting the best candidate, with a success rate of about 37%.
+
+#### b. Mathematical Justification
+
+- **Optimal Threshold**:
+  - The optimal number of candidates to sample is \( k = n/e \).
+- **Probability of Success**:
+  - The maximum probability of selecting the best candidate is \( 1/e \) (~36.8%).
+- **Intuition**:
+  - Balances the trade-off between gathering enough information and the risk of the best candidate appearing early.
+
+### Application to the Salary Problem
+
+#### a. Scenario
+
+- **Goal**: Choose the job offer with the highest salary.
+- **Process**:
+  - Salaries are presented one by one in random order.
+  - You must accept or reject each salary when presented.
+
+#### b. Implementing the Strategy
+
+1. **Sampling Phase**:
+   - **Do not accept** any salary offers during the first \( n/e \) interviews.
+   - **Keep track** of the highest salary seen so far.
+
+2. **Selection Phase**:
+   - **Accept** the first salary that exceeds the highest salary from the sampling phase.
+   - If no salary exceeds this, accept the last one.
+
+#### c. Outcomes
+
+- **High Success Rate**:
+  - This method ensures a high probability of selecting the highest or near-highest salary.
+- **Risk Management**:
+  - Reduces the chance of settling for a lower salary due to early acceptance.
+
+### Real-World Applications
+
+#### a. Dating and Marriage
+
+- **Objective**: Find the best life partner.
+- **Application**:
+  - Date and evaluate a sample of potential partners without committing.
+  - Commit to the next person who is better than all previous ones.
+
+#### b. Hiring a Secretary
+
+- **Objective**: Hire the most qualified candidate.
+- **Application**:
+  - Interview a portion of applicants without offering the job.
+  - Hire the next applicant who surpasses the best from the initial interviews.
+
+#### c. Apartment Hunting
+
+- **Objective**: Rent the best available apartment.
+- **Application**:
+  - Visit a fraction of available apartments.
+  - Choose the next one that is better than those already seen.
+
+#### d. General Decision-Making
+
+- **Optimal Stopping** is applicable in any scenario where decisions are sequential and irrevocable, and the goal is to maximize payoff.
+
+---
