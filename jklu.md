@@ -280,10 +280,10 @@ A **Markov chain** is a mathematical system that undergoes transitions from one 
 
 #### b. Mathematical Insight
 
-- **Transition Matrix \( T \)**:
+- **Transition Matrix $$ T $$**:
   - Describes the probabilities of moving from one state to another.
 - **Steady-State Condition**:
-  - \( T \cdot \pi = \pi \), where \( \pi \) is the steady-state distribution.
+  - $$ T \cdot \pi = \pi $$ where $$ \pi $$ is the steady-state distribution.
 - **Convergence**:
   - Due to the **Perron-Frobenius theorem**, which guarantees a unique largest eigenvalue (which is 1 for stochastic matrices) and a corresponding positive eigenvector.
 
@@ -318,7 +318,7 @@ This problem is a classic example of the **Optimal Stopping Theory** in probabil
 #### a. The Strategy
 
 - **Sampling Phase**:
-  - **Reject** the first \( n/e \) candidates outright (where \( n \) is the total number of candidates and \( e \) is Euler's number, approximately 2.71828).
+  - **Reject** the first $$ n/e $$ candidates outright (where $$ n $$ is the total number of candidates and $$ e $$ is Euler's number, approximately 2.71828).
   - **Record** the highest value among the sampled candidates.
 - **Selection Phase**:
   - **Accept** the first candidate who is better than all the candidates in the sampling phase.
@@ -328,9 +328,9 @@ This problem is a classic example of the **Optimal Stopping Theory** in probabil
 #### b. Mathematical Justification
 
 - **Optimal Threshold**:
-  - The optimal number of candidates to sample is \( k = n/e \).
+  - The optimal number of candidates to sample is $$ k = n/e $$.
 - **Probability of Success**:
-  - The maximum probability of selecting the best candidate is \( 1/e \) (~36.8%).
+  - The maximum probability of selecting the best candidate is $$ 1/e $$  (~36.8%).
 - **Intuition**:
   - Balances the trade-off between gathering enough information and the risk of the best candidate appearing early.
 
@@ -346,7 +346,7 @@ This problem is a classic example of the **Optimal Stopping Theory** in probabil
 #### b. Implementing the Strategy
 
 1. **Sampling Phase**:
-   - **Do not accept** any salary offers during the first \( n/e \) interviews.
+   - **Do not accept** any salary offers during the first $$ n/e $$ interviews.
    - **Keep track** of the highest salary seen so far.
 
 2. **Selection Phase**:
