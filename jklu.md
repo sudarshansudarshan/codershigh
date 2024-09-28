@@ -388,3 +388,146 @@ This problem is a classic example of the **Optimal Stopping Theory** in probabil
 - **Optimal Stopping** is applicable in any scenario where decisions are sequential and irrevocable, and the goal is to maximize payoff.
 
 ---
+
+# Markov Processes
+
+Let's start by looking at a simple Markov process involving two states: Happy and Stressed.
+
+![Markov Process with Two States: Happy and Stressed](/machinelearning/assets/images/markov1.png)
+
+In the figure above, we have two states: Happy and Stressed.
+
+Here’s what we know:
+- 70% of people in the Happy state will become Stressed after some time (one iteration), while 30% will stay Happy.
+- 50% of people in the Stressed state will become Happy after some time (one iteration), while 50% will stay Stressed.
+
+Now, consider an initial scenario where there are 1000 people in the Happy state and 0 in the Stressed state. What will the distribution of people be after several iterations? Will it remain the same?
+
+Let's try to do this for two iterations:
+
+![Distribution After Two Iterations](/machinelearning/assets/images/markov2.png)
+![Distribution After Two Iterations](/machinelearning/assets/images/markov3.png)
+![Distribution After Two Iterations](/machinelearning/assets/images/markov4.png)
+
+Do you notice how the distribution changes after two iterations?
+
+Will it keep changing, or will it eventually stabilize?
+
+Yes, it will converge after some time. But do you understand why?
+
+To get a better understanding, you can write a program to see if this distribution converges over time. Here’s a simple code snippet to help you explore this:
+
+```python
+import numpy as np
+A = np.array([[0.3, 0.5],[0.7, 0.5]]) # Transition matrix
+v = np.array([1000, 0]) # Initial distribution
+def iterate_until_convergence(A, v, tolerance=1e-6, max_iterations=10):
+    for _ in range(max_iterations):
+        v_next = A @ v
+        if np.allclose(v, v_next, atol=tolerance):
+            return v_next
+        v = v_next
+    return v
+final_distribution = iterate_until_convergence(A, v)
+total_population = np.sum(final_distribution)
+percentage_distribution = final_distribution / total_population * 100
+print(final_distribution, percentage_distribution)
+
+```
+
+Notice how the distribution changes with each iteration. Eventually, you'll see that it stops changing—it converges.
+
+## Matrix Method
+
+There's another way to approach this: through matrix operations.
+
+Think of the probability of transitioning from one state to another as a matrix, and the initial distribution of people in both states as a vector.
+
+Here's what the matrix looks like:
+
+$$
+\text{Transition Matrix: } M = 
+\begin{pmatrix}
+0.7 & 0.5 \\
+0.3 & 0.5
+\end{pmatrix}
+$$
+
+_Notice that the sum of the columns is 1._
+
+And here’s the initial distribution vector:
+
+$$
+\text{Initial Vector: } v_0= 
+\begin{pmatrix}
+1000 \\
+0
+\end{pmatrix}
+$$
+
+Now, to predict the distribution after one iteration, you multiply the matrix with the vector:
+
+$$
+\text{New Distribution: } v_1 = 
+\begin{pmatrix}
+0.7 & 0.5 \\
+0.3 & 0.5
+\end{pmatrix}
+\begin{pmatrix}
+1000 \\
+0
+\end{pmatrix}
+=
+\begin{pmatrix}
+700 \\
+300
+\end{pmatrix}
+$$
+
+So, to find the eventual distribution, would you keep performing matrix multiplications repeatedly?
+
+![EVD](/machinelearning/assets/images/EVD1.png)
+
+But do you realize that you don't need to do the matrix multiplication all the time? You just need to find $$M^{n}$$.
+
+But $$M$$ is a matrix, so how easily can you compute $$M^{n}$$?
+
+This is where EVD (Eigenvalue Decomposition) comes to our rescue! 
+
+EVD, or Eigenvalue Decomposition, allows us to express the matrix $$M$$ in terms of its eigenvalues and eigenvectors.
+
+We know that:
+
+$$
+A v = \lambda v
+$$
+
+where $$v$$ is the eigenvector and $$\lambda$$ is the corresponding eigenvalue.
+
+![EVD](/machinelearning/assets/images/EVD2.png)
+
+Multiplying a matrix by a vector $$v$$ $$n$$ times is equivalent to raising the matrix to the power $$n$$.
+
+![EVD](/machinelearning/assets/images/EVD3.png)
+
+
+Now, do you realize the importance and power of eigenvectors? They can be used to find any power of $$A$$ in no time.
+
+Over time, this matrix multiplication will lead to a steady-state distribution, where further iterations will not change the result. This is the point of convergence.
+
+So for the above example, we get the final distribution to be:
+
+$$
+\begin{bmatrix}
+416.666368 \\
+583.333632
+\end{bmatrix}
+$$
+
+**Derivation for convergence in Markov Matrix**
+
+![Markov Convergence Derivation](/machinelearning/assets/images/markovder1.png)
+![Markov Convergence Derivation](/machinelearning/assets/images/markovder2.png)
+
+
+---
