@@ -5,9 +5,6 @@ permalink: /jklu/
 order: 2
 ---
 
-* TOC
-{:toc}
-
 
 # Joy of Computing Workshop - Class Notes
 
