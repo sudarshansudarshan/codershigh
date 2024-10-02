@@ -1148,3 +1148,316 @@ Specifically, it signifies any plane passing through the origin in 3 - dimension
 
    </details><br>
 
+   # Module F
+---
+
+51.Imagine a situation of war in 1800's.Country A wants to send a letter to Country B such that their enemy country can't understand the message.How can you help the country A in this situation?
+   <details closed>
+   <summary>Sol.</summary>
+
+   In the scenario of wartime communication in the 1800s, Country A could employ the Caesar cipher to encode their messages to Country B. The Caesar cipher is a substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet. By agreeing on a specific shift value beforehand, known as the "key," Country A could encode their messages, making them unintelligible to their adversaries without the knowledge of the key.
+In the Caesar cipher, each letter in the plaintext is shifted by a fixed number of positions in the alphabet. Mathematically, this can be represented using modular arithmetic. Let's denote \( n \) as the shift value (the key) and \( P \) as the position of a letter in the alphabet. The Caesar cipher encryption function \( E \) can be expressed as:
+
+\[ E(P) = (P + n) \mod 26 \]
+
+Where \( \mod 26 \) ensures that the result wraps around the alphabet. For example, if \( n = 3 \) and \( P = 1 \) (representing 'A'), the encrypted letter would be \( E(1) = (1 + 3) \mod 26 = 4 \), which corresponds to 'D'.
+
+   </details><br>
+52.How about shifting the alphabets by 1 letter each?What is the problem here?
+   <details closed>
+   <summary>Sol.</summary>
+
+   Shifting each letter of the alphabet by one position, known as a Caesar cipher with a fixed key of 1, is a simple form of substitution cipher. While it provides a basic level of encryption, it suffers from a significant vulnerability: its lack of security due to its limited key space.
+
+Since there are only 25 possible keys (each shift value from 1 to 25), an attacker can easily perform a brute-force attack by trying all possible keys to decrypt the message. This means that the encrypted message can be deciphered through only 25 trials, making it highly vulnerable to cryptanalysis.
+
+   </details><br>
+53.Try encoding the word "VICHARANASHALA" using the above method (But shift 4 letters this time) 
+   <details closed>
+   <summary>Sol.</summary>
+
+   To encode the word "VICHARANASHALA" using a Caesar cipher with a shift of 4 letters, we shift each letter in the word by four positions in the alphabet:
+
+- V becomes Z
+- I becomes M
+- C becomes G
+- H becomes L
+- A becomes E
+- R becomes V
+- A becomes E
+- N becomes R
+- A becomes E
+- S becomes W
+- H becomes L
+- A becomes E
+- L becomes P
+- A becomes E
+
+So, "VICHARANASHALA" would be encoded as "ZMGLEREVREWEP".
+
+   </details><br>
+54.What if you have only the encoded message? How will you get to the original message?
+   <details closed>
+   <summary>Sol.</summary>
+
+   If we only have the encoded message and no knowledge of the key (the shift value used in the Caesar cipher), we would need to employ cryptanalysis techniques to decrypt the message.
+
+One common approach is frequency analysis, which relies on the fact that certain letters appear more frequently than others in natural language text. For example, in English, the most common letters are 'E', 'T', 'A', 'O', and 'I'. By analyzing the frequency of letters in the encoded message and comparing it to the expected frequency distribution of letters in English text, we can make educated guesses about the shift value.
+
+Another method involves trying all possible shift values (from 1 to 25) and examining the decrypted text for meaningful words or patterns. This brute-force approach would involve decoding the message 25 times with different shift values until the original message is revealed.
+
+   </details><br>
+55.What if we substitute each letter by some other letter using a pre- defined mapping (eg.a->t,b->f,c->y,...)?How many trails do we have to do so that we can reach the secret message if we only have the encoded text and not the mapping ?
+   <details closed>
+   <summary>Sol.</summary>
+
+   If we have an encoded message using a substitution cipher with a predefined mapping, and we don't know the mapping, we essentially face a cryptanalysis problem. 
+
+The number of possible mappings in a substitution cipher depends on the size of the alphabet used in the encoding. For example, if we're using the English alphabet, which consists of 26 letters, there are \( 26! \) possible permutations of the alphabet.
+
+Therefore, without knowing the mapping, we would need to try each possible permutation to decipher the message. This brute-force approach would require checking all \( 26! \) mappings, which is clearly impractical due to the vast number of trials involved.
+
+In summary, if we only have the encoded text and not the mapping used in a substitution cipher, it is practically infeasible to decipher the secret message by trying all possible mappings.
+
+   </details><br>
+56.Is there any efficient approach for the second part of the 55th question?
+   <details closed>
+   <summary>Sol.</summary>
+
+   Yes, there are more efficient approaches for decrypting a message encoded with a substitution cipher when the mapping is unknown. One common technique is frequency analysis.
+
+In most languages, including English, certain letters occur more frequently than others.
+
+Here's how frequency analysis works:
+
+1. Count the frequency of each letter in the encoded message.
+2. Compare the frequency distribution to the expected frequency distribution of letters in the language being used (e.g., English).
+3. Identify common patterns, such as single-letter words or repeated sequences, which may correspond to common letters or words in the language.
+4. Use these patterns to make educated guesses about the mapping, such as which encoded letter corresponds to 'E' or 'T'.
+5. Once a few letters are deciphered, use context and word patterns to further decrypt the message.
+
+   </details><br>
+57.What do you think is the frequency of occurence of various letters in a sample English text? Which letter do you expect to be the most frequent ?
+   <details closed>
+   <summary>Sol.</summary>
+
+   In a typical English text, the frequency of occurrence of various letters follows a well-known distribution. The most frequent letter in English text is 'E', followed by 'T', 'A', 'O', 'I', 'N', 'S', 'H', 'R', 'D', 'L', 'C', 'U', 'M', 'W', 'F', 'G', 'Y', 'P', 'B', 'V', 'K', 'J', 'X', 'Q', and 'Z', in descending order of frequency.
+These frequencies can vary slightly depending on the specific text and context, but they provide a general guideline for the relative occurrence of letters in English text.
+
+   </details><br>
+58.Assuming that an English text follows a particular order of frequency,can you solve the 56th question?
+   <details closed>
+   <summary>Sol.</summary>
+
+   Assuming that the English text follows the typical order of letter frequency, we can use this knowledge to help decrypt a message encoded with a substitution cipher.
+
+Given the encoded message, we can analyze the frequency of letters in the text. By identifying the most frequently occurring letter in the encoded message, we can make an educated guess that it corresponds to the most frequent letter in English text, which is 'E'.
+
+Once we determine the mapping for this letter, we can continue deciphering the rest of the message based on context and patterns. This process can be iterated, gradually revealing more letters and improving our understanding of the mapping until the entire message is decrypted.
+
+While frequency analysis provides a powerful tool for decrypting substitution ciphers, it may still require some manual effort and linguistic knowledge, especially for longer messages or messages with less predictable patterns. However, by leveraging the knowledge of letter frequency in English text, we can significantly reduce the number of trials needed to decrypt the message compared to a brute-force approach.
+
+   </details><br>
+59.Suppose we take a subset from a huge text i.e $$k^{th}$$, $$2k^{th}$$, $$3k^{th}$$... elements.Will they also follow the same pattern observed in the previous question?
+   <details closed>
+   <summary>Sol.</summary>
+
+   Yes, if we take a subset of characters from a large enough English text, such as every \(k^{th}\) character, \(2k^{th}\) character, \(3k^{th}\) character, and so on, they are likely to follow a similar pattern of letter frequency as observed in the previous question.
+
+This is because the frequency distribution of letters in English text is relatively stable across different texts, assuming the text samples are large enough and representative of typical English language usage. Therefore, even when considering a subset of characters from a large text, we would still expect the most frequent letters to be 'E', 'T', 'A', 'O', 'I', and so on, in roughly the same order of frequency.
+
+Of course, the specific frequencies may vary slightly depending on the particular text and context, but the overall pattern of letter frequency should remain consistent. This consistency is what allows frequency analysis to be an effective technique for decrypting substitution ciphers, even when working with subsets of text.
+
+   </details><br>
+60.Assume you arrange two meaningful english text strings in front of each other. What is the expected number of collisions in the letters? Call it "collision frequency".
+   <details closed>
+   <summary>Sol.</summary>
+
+   To calculate the expected number of collisions in the letters of two meaningful English text strings arranged in front of each other, we follow these steps:
+<br><br>
+1. Frequency Distribution: Define the frequency distribution of characters in English text. Denote the probability of occurrence of each character as \( p \), where \( i \) ranges from 1 to \( N \), the total number of characters in the English alphabet.
+<br><br>
+2. Collision Probability for Each Character: Calculate the collision probability for each character, denoted as \( P_{\text{collision}, i} \). This can be calculated as the square of the probability of occurrence of that character: \( p_i^2 \).
+<br><br>
+3. Collision Frequency: The expected number of collisions in a position is the sum of the collision probabilities for all characters. Denote the collision frequency as \( \text{collision frequency} \), which can be calculated as the sum of \( P_{\text{collision}, i} \) over all characters: 
+   \[
+   \text{collision frequency} = \sum_{i=1}^{N} p_i^2
+   \]
+
+Total Number of Collisions = N * Collision frequency.
+
+   </details><br>
+61.Assume that in the previous question ,we apply the ceaser cypher(the one discussed in the first few questions), on both the strings, and alphabet by 5 letters then will the collision frequency remain the same?What if we shift first string by 3 letters and second by 5? 
+   <details closed>
+   <summary>Sol.</summary>
+
+   Applying the Caesar cipher to both strings by shifting each letter by the same amount will not change the collision frequency. This is because the relative positions of the characters within each string remain the same, only their actual representations change.
+<br>
+However, if we shift the first string by a different amount than the second string, it will affect the collision frequency. This is because the relative positions of characters within each string will change, leading to a different distribution of characters and hence a different collision frequency.
+
+   </details><br>
+62.Suggest any such method using which we can be confident that the encoded text can't be decoded by the enemy. (We may discuss it in further classes)
+   <details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
+
+**Project 1-** [Vigenere Cipher](https://docs.google.com/document/d/1JFNRu3x5loBsF-PBPcdpfEhRz9-8Oex5uQ1iy1njp8E/edit)
+
+
+# Module G  
+---  
+   
+63.A dart is thrown at random onto a board that has the shape of a circle as shown below. Calculate the probability that the dart will hit the shaded region.  
+![fig3](/aicamp/assets/markov4.jpg)  
+   <details closed>
+   <summary>Sol.</summary>
+
+   The shaded region is the difference in area between two concentric circles (a larger circle and a smaller circle).
+
+- The radius of the larger circle \( R \) is 14 units.
+- The radius of the smaller circle \( r \) is 7 units.
+
+The area of the shaded region \( A_{\text{shaded}} \) is given by the difference in the areas of these two circles:
+\[ A_{\text{shaded}} = \pi R^2 - \pi r^2 \]
+
+Substituting the values:
+\[ A_{\text{shaded}} = \pi (14^2 - 7^2) \]
+\[ A_{\text{shaded}} = \pi (196 - 49) \]
+\[ A_{\text{shaded}} = \pi \cdot 147 \]
+
+The total area \( A_{\text{total}} \) is the area of the larger circle:
+\[ A_{\text{total}} = \pi R^2 \]
+
+Substituting the value:
+\[ A_{\text{total}} = \pi \cdot 14^2 \]
+\[ A_{\text{total}} = \pi \cdot 196 \]
+
+The probability \( P \) of a dart hitting the shaded region is the ratio of the area of the shaded region to the total area of the circle:
+\[ P = \frac{A_{\text{shaded}}}{A_{\text{total}}} \]
+
+Substituting the areas calculated:
+\[ P = \frac{\pi \cdot 147}{\pi \cdot 196} \]
+\[ P = \frac{147}{196} \]
+
+Simplifying the fraction:
+\[ P = \frac{147 \div 49}{196 \div 49} \]
+\[ P = \frac{3}{4} \]
+
+Thus, the probability of a dart hitting the shaded region is \( \frac{3}{4} \) or 0.75.
+
+   </details><br>
+
+64.Let a pair of dice be thrown and the random variable X be the sum of the numbers that appear on the two dice. Find the mean or expectation of X.  
+<details closed>
+   <summary>Sol.</summary>
+
+   To find the mean or expectation of the random variable X, which represents the sum of the numbers on two dice, you can use the formula:
+
+  \[ \text{Mean} (\mu) = \sum_{i=2}^{12} i \times P(X=i) \]
+  
+  Where \( P(X=i) \) is the probability that the sum of the two dice equals \( i \).
+  
+  The sum can range from 2 (if both dice show 1) to 12 (if both dice show 6). The probability of getting each sum can be calculated by considering all possible combinations of the dice.
+  
+  Here's a table of the sums and their probabilities:
+  
+  \[
+  \begin{array}{|c|c|}
+  \hline
+  \text{Sum} & \text{Probability} \\
+  \hline
+  2 & \frac{1}{36} \\
+  3 & \frac{2}{36} \\
+  4 & \frac{3}{36} \\
+  5 & \frac{4}{36} \\
+  6 & \frac{5}{36} \\
+  7 & \frac{6}{36} \\
+  8 & \frac{5}{36} \\
+  9 & \frac{4}{36} \\
+  10 & \frac{3}{36} \\
+  11 & \frac{2}{36} \\
+  12 & \frac{1}{36} \\
+  \hline
+  \end{array}
+  \]
+  
+  Now, calculate the mean:
+  
+  \[ \mu = (2 \times \frac{1}{36}) + (3 \times \frac{2}{36}) + (4 \times \frac{3}{36}) + \ldots + (12 \times \frac{1}{36}) \]
+  
+  \[ \mu = \frac{2}{36} + \frac{6}{36} + \frac{12}{36} + \ldots + \frac{12}{36} \]
+  
+  \[ \mu = \frac{1}{36} \left(2 + 6 + 12 + \ldots + 12 \right) \]
+  
+  \[ \mu = \frac{1}{36} \times (252) \]
+  
+  \[ \mu = \frac{1}{36} \times 252 \]
+  
+  \[ \mu = \frac{252}{36} \]
+  
+  \[ \mu = 7 \]
+  
+  So, the mean or expectation of \( X \) is approximately \( 7 \).
+
+   </details><br>
+65.A factory produces items, and each item is independently defective with probability
+0.2. If 100 items are produced in a day, what is the expected number of defective items?  
+<details closed>
+   <summary>Sol.</summary>
+
+   To find the expected number of defective items produced in a day by the factory, we use the concept of expectation in probability theory.
+
+Given:
+- Each item is defective with probability \( p = 0.2 \).
+- The number of items produced in a day \( n = 100 \).
+
+The expected number of defective items \( E(X) \) can be calculated using the formula for the expectation of a binomial distribution:
+\[ E(X) = n \cdot p \]
+
+Substituting the given values:
+\[ E(X) = 100 \cdot 0.2 \]
+\[ E(X) = 20 \]
+
+Thus, the expected number of defective items produced in a day is 20.
+
+   </details><br>
+66.A point is chosen at random inside a sphere of radius R. What is the probability that this point is closer to the center of the sphere than to its surface?  
+<details closed>
+   <summary>Sol.</summary>
+
+   To find the probability that a randomly chosen point inside a sphere is closer to the center than to its surface, we analyze the problem geometrically.
+
+Given:
+- The sphere has a radius \( R \).
+- We need to find the probability that a point is closer to the center than to the surface of the sphere.
+- A point inside the sphere is closer to the center than to the surface if its distance from the center is less than half the radius of the sphere, \( \frac{R}{2} \).
+The volume \( V_{\text{inner}} \) of the sphere with radius \( \frac{R}{2} \) is given by:
+     \[
+     V_{\text{inner}} = \frac{4}{3} \pi \left( \frac{R}{2} \right)^3 = \frac{4}{3} \pi \cdot \frac{R^3}{8} = \frac{1}{6} \pi R^3
+     \]
+The volume \( V_{\text{total}} \) of the sphere with radius \( R \) is given by:
+     \[
+     V_{\text{total}} = \frac{4}{3} \pi R^3
+     \]
+The probability \( P \) that a randomly chosen point inside the sphere is closer to the center than to the surface is the ratio of the volume of the inner sphere to the volume of the entire sphere:
+     \[
+     P = \frac{V_{\text{inner}}}{V_{\text{total}}} = \frac{\frac{1}{6} \pi R^3}{\frac{4}{3} \pi R^3} = \frac{\frac{1}{6}}{\frac{4}{3}} = \frac{1}{6} \cdot \frac{3}{4} = \frac{1}{8}
+     \]
+
+Thus, the probability that a randomly chosen point inside the sphere is closer to the center than to its surface is \( \frac{1}{8} \).
+
+   </details><br>
+67.A point is randomly chosen inside a cube with side length 𝑎. What is the probability that the point is closer to one of the vertices than to the center of the cube?  
+<details closed>
+   <summary>Sol.</summary>
+
+   </details><br>
+68.Imagine you have a number line that ranges from -1 to 1. You randomly pick k points on this line. What is the expected distance of the closest point to the midpoint of the line?
+<details closed>
+   <summary>Sol.</summary>
+
+   </details><br>  
+**Project 5-** [The Dart Game](https://docs.google.com/document/d/1hjT8teTRsQiW-NDj37Y6JmzCMTEE2xNHOv6iC9NKkDU/edit)
+
+
