@@ -1150,8 +1150,8 @@ Specifically, it signifies any plane passing through the origin in 3 - dimension
    
 ---
 
- # Module F
----
+# Module F
+
 
 51.Imagine a situation of war in 1800's.Country A wants to send a letter to Country B such that their enemy country can't understand the message.How can you help the country A in this situation?
    <details closed>
