@@ -1,0 +1,7 @@
+title: CodersHigh
+description: A minimalistic Jekyll site.
+author: Sudarshan
+theme: minima      # uses the default GitHub Pages theme
+plugins:
+  - jekyll-feed   # optional: adds an RSS feed
+baseurl: ""        # leave blank for project repositories
