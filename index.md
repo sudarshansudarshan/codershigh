@@ -12,7 +12,7 @@ title: Welcome to CodersHigh
 * [The Alumni](#alumni)
 
 ## Introduction {#introduction}
-Coders High is lot more than what it takes to be a coding club—it’s a community for curious minds who want to explore the beauty and elegance of algorithms. We
+Coders High is lot more than what it takes to be a coding club—it’s a community for the curious minds who want to explore the beauty and elegance of algorithms. We
 believe that programming is a powerful tool for expressing ideas, but the
 real magic lies in understanding the underlying concepts and patterns that
 make solutions possible.
