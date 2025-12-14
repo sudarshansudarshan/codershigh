@@ -17,7 +17,7 @@ make solutions possible.
 
 Our sessions are centered around inquiry and discovery. Instead of
 following rote tutorials or chasing the latest frameworks, we dive into
-carefully chosen case studies that spark conversation and experimentation.
+carefully chosen case studies that spark conversations and experimentation.
 You’ll collaborate with peers, ask questions and develop problem‑solving
 strategies together. It’s about cultivating intuition, creativity and
 confidence through shared exploration.
