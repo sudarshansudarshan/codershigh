@@ -3,9 +3,7 @@ layout: home
 title: Welcome to CodersHigh
 ---
 
-
-## Table of Contents
-
+## Table of Contentss
 * [Introduction](#introduction)
 * [What is Coders High?](#what-is-coders-high)
 * [How do we Select?](#how-do-we-select)
