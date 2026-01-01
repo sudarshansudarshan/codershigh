@@ -14,5 +14,5 @@ order: 2
 ## 1. Codershigh Overview
 
 **1.1 What is codershigh all about?**
-sdfsdfsdf
+A student-focused platform for discussing Data Science problems from first principles, without relying on jargon or heavy mathematics.
 
