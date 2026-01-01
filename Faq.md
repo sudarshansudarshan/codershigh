@@ -31,6 +31,9 @@ This winter internship is hosted by the Indian Institute of Technology Ropar in 
 **1.2 What is the duration of this internship?**  
 The internship is hosted at the Indian Institute of Technology Ropar in **online mode** and will be of **4 weeks** duration.
 
+**1.2 What are the outcomes expected from this internship?**
+None.
+
 **1.3 What is the mode of this internship?**  
 The internship mode will be **online only**.
 
