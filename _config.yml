@@ -5,6 +5,7 @@ header_pages:
   - Intro.md
   - Faq.md
   - Alumni.md
+  - Testimonials.md
 
 
 markdown: kramdown
