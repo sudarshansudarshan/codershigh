@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introduction
+title: Alumni
 permalink: /alumni/
 order: 1
 ---
