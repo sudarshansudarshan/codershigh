@@ -51,6 +51,4 @@ We will soon have a list of our alumni and their testimonials on this page.
 
 ## How do we Select? {#how-do-we-select}
 
-The selection is purely through nominations of existing members. We will soon post the details in this section. You will also be notified in the whatsapp group/discord server.  
-
-
+Anyone can join the club by starting from the weekend. Join us at 9 pm on Fridays/Saturdays and there will be volunteers to handhold you and introduce you to the activities of the club.
