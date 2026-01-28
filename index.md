@@ -51,4 +51,4 @@ We will soon have a list of our alumni and their testimonials on this page.
 
 ## How do we Select? {#how-do-we-select}
 
-Anyone can join the club by starting from the weekend. Join us at 9 pm on Fridays/Saturdays and there will be volunteers to handhold you and introduce you to the activities of the club.
+Anyone can join the club by starting from the weekend. Join us at 9 pm on Fridays/Saturdays and there will be volunteers to handhold you and introduce you to the activities of the club. We will be announcing these sessions on our WhatsApp/Telegram/Linkedin pages. 
