@@ -5,7 +5,7 @@ order: 7
 permalink: /fourbookbuffer/
 ——-
 
-## The 4-Book Buffer Puzzle
+## The Puzzle
 
 You need to get **100 books** home from the library, at the rate of **one new book every week**.
 
