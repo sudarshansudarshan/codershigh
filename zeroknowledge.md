@@ -5,7 +5,6 @@ order: 6
 permalink: /zeroknowledge/
 —
 
-
 ## 1. The Coin Toss Claim
 
 I claim that I have the magical ability to predict whether the coin that you toss will yield a head or a tail.
@@ -15,6 +14,7 @@ Is one enough? Two? Three? Hundred? Thousand?
 
 What does it mean to be convinced, and how does repeated verification change your confidence—without ever truly proving the claim with absolute certainty?
 
+—
 
 ## 2. The Prisoners and the Cells
 
@@ -26,7 +26,7 @@ The problem is to put these 300 prisoners into **3 cells**, each with a capacity
 
 Is it possible to convince someone that such a placement exists **without revealing the actual placement**?
 
-
+—
 
 ## 3. The Emperor, the Heir, and the Sudoku
 
@@ -42,7 +42,7 @@ Mr. Chetan claims that he knows the solution, but refuses to reveal it. His reas
 
 How can Mr. Chetan convince the committee that he **knows the solution**, without ever **revealing the solution itself**?
 
-
+—
 
 ## 4. The Big Question
 
@@ -51,10 +51,12 @@ What do these stories have in common?
 Can you **prove that you know something**,  
 without revealing **what you know**?
 
+—
+
 ## 5. Generate big prime numbers
 
-1. Can you generate a big prime number using a python library? Use any python library that can give you big prime numbers. Are how big a prime number can you generate?
+1. Can you generate a big prime number using a python library? Use any python library that can give you big prime numbers. How big a prime number can you generate?
 2. Can you take a random 10 digit number n, check if it is prime or not, if it is not go to n+1, keep checking the next number until you get a prime number. Now, the big question is, how easy was it for you to generate a 10 digit prime number?
-3. Can you generate a 100 digit prime number using this method? Just start with a random 100 digit number and keep adding 1 to it until you get a prime number. 
-4. Generate a big 100 digit prime number P and another 100 digit prime number Q. Multiple them to get PXQ, can you factor it easily?
-5. Think of an application of what all you learnt in this section. 
+3. Can you generate a 100 digit prime number using this method? Just start with a random 100 digit number and keep adding 1 to it until you get a prime number.
+4. Generate a big 100 digit prime number P and another 100 digit prime number Q. Multiply them to get P×Q, can you factor it easily?
+5. Think of an application of what all you learnt in this section.
