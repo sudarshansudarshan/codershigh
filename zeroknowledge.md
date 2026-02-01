@@ -50,3 +50,11 @@ What do these stories have in common?
 
 Can you **prove that you know something**,  
 without revealing **what you know**?
+
+## 5. Generate big prime numbers
+
+1. Can you generate a big prime number using a python library? Use any python library that can give you big prime numbers. Are how big a prime number can you generate?
+2. Can you take a random 10 digit number n, check if it is prime or not, if it is not go to n+1, keep checking the next number until you get a prime number. Now, the big question is, how easy was it for you to generate a 10 digit prime number?
+3. Can you generate a 100 digit prime number using this method? Just start with a random 100 digit number and keep adding 1 to it until you get a prime number. 
+4. Generate a big 100 digit prime number P and another 100 digit prime number Q. Multiple them to get PXQ, can you factor it easily?
+5. Think of an application of what all you learnt in this section. 
