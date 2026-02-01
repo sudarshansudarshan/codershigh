@@ -44,16 +44,8 @@ How can Mr. Chetan convince the committee that he **knows the solution**, withou
 
 —
 
-## 4. The Big Question
 
-What do these stories have in common?
-
-Can you **prove that you know something**,  
-without revealing **what you know**?
-
-—
-
-## 5. Generate big prime numbers
+## 4. Generate big prime numbers
 
 1. Can you generate a big prime number using a python library? Use any python library that can give you big prime numbers. How big a prime number can you generate?
 2. Can you take a random 10 digit number n, check if it is prime or not, if it is not go to n+1, keep checking the next number until you get a prime number. Now, the big question is, how easy was it for you to generate a 10 digit prime number?
