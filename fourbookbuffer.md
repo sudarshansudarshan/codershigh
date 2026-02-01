@@ -1,13 +1,13 @@
-——-
+---
 layout: page
 title: The 4-Book Buffer Puzzle
 order: 7
 permalink: /fourbookbuffer/
-———
+---
 
 ## The Puzzle
 
-You need to get **100 books** home from the library, at the rate of **one book per week**.
+You need to get **100 reference books** home from the library, at the rate of **one book per week**.
 
 - The books you need follow a known sequence:  
   $$b_1, b_2, b_3, \ldots, b_{100}$$  
