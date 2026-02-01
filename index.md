@@ -1,7 +1,4 @@
-—
-layout: home
-title: Welcome to CodersHigh really?
-—
+
 
 ## Table of Contents
 * [Introduction](#introduction)
