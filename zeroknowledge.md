@@ -1,9 +1,9 @@
-—-
+---
 layout: page
 title: Zero Knowledge Proofs
 order: 6
 permalink: /zeroknowledge/
-—-
+---
 
 ## 1. The Coin Toss Claim
 
