@@ -5,9 +5,6 @@ order: 6
 permalink: /zeroknowledge/
 —
 
-# Zero Knowledge Proofs / Protocols
-
-#piknik #codershigh
 
 ## 1. The Coin Toss Claim
 
@@ -18,7 +15,6 @@ Is one enough? Two? Three? Hundred? Thousand?
 
 What does it mean to be convinced, and how does repeated verification change your confidence—without ever truly proving the claim with absolute certainty?
 
-—
 
 ## 2. The Prisoners and the Cells
 
@@ -30,7 +26,7 @@ The problem is to put these 300 prisoners into **3 cells**, each with a capacity
 
 Is it possible to convince someone that such a placement exists **without revealing the actual placement**?
 
-—
+
 
 ## 3. The Emperor, the Heir, and the Sudoku
 
@@ -46,7 +42,7 @@ Mr. Chetan claims that he knows the solution, but refuses to reveal it. His reas
 
 How can Mr. Chetan convince the committee that he **knows the solution**, without ever **revealing the solution itself**?
 
-—
+
 
 ## 4. The Big Question
 
