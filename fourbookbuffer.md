@@ -30,13 +30,13 @@ $$\{z_1, z_2, z_3, z_4\}$$
 and the next required book is $$b_k$$ (which you do not already have), then after the visit your holding becomes:  
 (remove one of $$z_1, z_2, z_3, z_4$$ and add $$b_k$$).
 
-—
+
 
 ## The Objective
 
 Your goal is to **minimize the total number of visits to the library** over the 100 weeks.
 
-—
+
 
 ## The Core Question
 
@@ -48,7 +48,7 @@ By the time you are about to bring home the final book $$b_{100}$$:
 3. More generally:
    - **What is your strategy for deciding which book to give up each time you are forced to visit the library?**
 
-—
+
 
 ## What You Know
 
@@ -59,7 +59,7 @@ By the time you are about to bring home the final book $$b_{100}$$:
 - You always have at most four books in hand.
 - Whenever you visit and already have four books, you must drop exactly one.
 
-—
+
 
 ## Your Task
 
