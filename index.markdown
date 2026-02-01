@@ -9,7 +9,7 @@ layout: home
 layout: home
 title: Welcome to CodersHigh
 —
-
+Index.markdown
 ## Table of Contents
 * [Introduction](#introduction)
 * [What Happens in a Coders High Session?](#what-happens-in-a-coders-high-session)
