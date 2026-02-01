@@ -1,10 +1,3 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
----
-
 —
 layout: home
 title: Welcome to CodersHigh
@@ -57,5 +50,3 @@ Coders High is for anyone who values curiosity over credentials and depth over s
 This is not about finishing first. It is about finishing last—like a slow bicycle race where balance, patience, and awareness matter more than speed. Coders High is for those who want to stay hungry, stay foolish, and retain the curiosity of a child in a candy store.
 
 **Coders High has only one agenda: there is none.**
-
-
