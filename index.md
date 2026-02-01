@@ -14,7 +14,7 @@ In an age of instant answers, shortcuts, and algorithmic thinking, Coders High d
 
 Coders High is designed to help participants rediscover the joy of thinking deeply, discussing freely, and staying with uncertainty without anxiety. It is a place to go “high” on knowledge, discussion, and shared intellectual effort.
 
-—
+
 
 ## What Happens in a Coders High Session? {#what-happens-in-a-coders-high-session}
 
@@ -24,7 +24,7 @@ Discussion is the primary tool. Participants explore multiple ways of thinking a
 
 Sessions often last two hours or more, and sometimes we never arrive at a final answer. That is not a problem. Staying with uncertainty keeps the discussion alive and sustains the “high” state—one marked by curiosity, humility, and deep engagement.
 
-—
+
 
 ## Our Philosophy {#our-philosophy}
 
@@ -38,7 +38,7 @@ Coders High is built on a few core principles:
 
 We respectfully disrespect the syllabus. Coverage is secondary; understanding is primary. Learning is churned through discussion—much like *Samudra Manthan*—and insight, if it appears, is a by-product rather than a target.
 
-—
+
 
 ## Who Is This For? {#who-is-this-for}
 
