@@ -1,9 +1,9 @@
-—
+——-
 layout: page
 title: The 4-Book Buffer Puzzle
 order: 7
 permalink: /fourbookbuffer/
-—
+———
 
 ## The Puzzle
 
