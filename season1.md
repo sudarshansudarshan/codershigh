@@ -1,4 +1,4 @@
-1. ## codershigh — Season One Finale
+   ## codershigh — Season One Finale
 
    We're wrapping up Season One with a fast-paced, multi-day math marathon covering all 14 episodes discussed so far. This is where we revisit every topic, tighten the fundamentals, and make sure the concepts stick.
 
