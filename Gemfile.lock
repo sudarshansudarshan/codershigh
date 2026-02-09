@@ -12,8 +12,12 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    ffi (1.17.2-arm64-darwin)
     ffi (1.17.2-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
+    google-protobuf (4.33.2-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
     google-protobuf (4.33.2-x64-mingw-ucrt)
       bigdecimal
       rake (>= 13)
@@ -71,6 +75,8 @@ GEM
     rexml (3.4.4)
     rouge (4.6.1)
     safe_yaml (1.0.5)
+    sass-embedded (1.97.1-arm64-darwin)
+      google-protobuf (~> 4.31)
     sass-embedded (1.97.1-x64-mingw-ucrt)
       google-protobuf (~> 4.31)
     terminal-table (3.0.2)
@@ -84,6 +90,7 @@ GEM
     webrick (1.9.2)
 
 PLATFORMS
+  arm64-darwin-25
   x64-mingw-ucrt
 
 DEPENDENCIES
@@ -104,8 +111,10 @@ CHECKSUMS
   csv (3.3.5) sha256=6e5134ac3383ef728b7f02725d9872934f523cb40b961479f69cf3afa6c8e73f
   em-websocket (0.5.3) sha256=f56a92bde4e6cb879256d58ee31f124181f68f8887bd14d53d5d9a292758c6a8
   eventmachine (1.2.7) sha256=994016e42aa041477ba9cff45cbe50de2047f25dd418eba003e84f0d16560972
+  ffi (1.17.2-arm64-darwin) sha256=54dd9789be1d30157782b8de42d8f887a3c3c345293b57ffb6b45b4d1165f813
   ffi (1.17.2-x64-mingw-ucrt) sha256=15d2da54ee578657a333a6059ed16eaba1cbd794ceecd15944825b65c8381ac0
   forwardable-extended (2.6.0) sha256=1bec948c469bbddfadeb3bd90eb8c85f6e627a412a3e852acfd7eaedbac3ec97
+  google-protobuf (4.33.2-arm64-darwin) sha256=6d0ac185fed18768e5f16338455b1e4b7c38a97fc46f352e709f7a3007b64e1d
   google-protobuf (4.33.2-x64-mingw-ucrt) sha256=16ed6f9c96da64c8d5c4ee763b58ab62c5e1431128891f4fe1d74370e4419e61
   http_parser.rb (0.8.1) sha256=9ae8df145b39aa5398b2f90090d651c67bd8e2ebfe4507c966579f641e11097a
   i18n (1.14.8) sha256=285778639134865c5e0f6269e0b818256017e8cde89993fdfcbfb64d088824a5
@@ -129,6 +138,7 @@ CHECKSUMS
   rexml (3.4.4) sha256=19e0a2c3425dfbf2d4fc1189747bdb2f849b6c5e74180401b15734bc97b5d142
   rouge (4.6.1) sha256=5075346d5797d6864be93f7adc75a16047a7dbfa572c63c502419ffa582c77de
   safe_yaml (1.0.5) sha256=a6ac2d64b7eb027bdeeca1851fe7e7af0d668e133e8a88066a0c6f7087d9f848
+  sass-embedded (1.97.1-arm64-darwin) sha256=9da08e5cc569ef62235fc515a87c75a47b0de40d8416c563ba1abfbe60e606d9
   sass-embedded (1.97.1-x64-mingw-ucrt) sha256=2b1da2304e638e4b1dc8158b7018f166736ff4f868a5a634b52f87cce1cd4d64
   terminal-table (3.0.2) sha256=f951b6af5f3e00203fb290a669e0a85c5dd5b051b3b023392ccfd67ba5abae91
   thread_safe (0.3.6) sha256=9ed7072821b51c57e8d6b7011a8e282e25aeea3a4065eab326e43f66f063b05a
