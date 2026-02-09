@@ -1,28 +1,146 @@
-   ## codershigh — Season One Finale
+---
+layout: page
+title: Season One
+order: 6
+permalink: /seasonone/
+---
 
-   We're wrapping up Season One with a fast-paced, multi-day math marathon covering all 14 episodes discussed so far. This is where we revisit every topic, tighten the fundamentals, and make sure the concepts stick.
+## codershigh — Season One Finale
 
-   ## Schedule
+We're wrapping up Season One with a fast-paced, multi-day math marathon covering all 14 episodes discussed so far. This is where we revisit every topic, tighten the fundamentals, and make sure the concepts stick.
 
-   Discussions will be held at **9:30 PM every day** (or on alternate days, depending on the progress of the cohort).
+## Schedule
 
-   ## Who Can Join?
+Discussions will be held at **9:30 PM every day** (or on alternate days, depending on the progress of the cohort).
 
-   This concluding series is **exclusively for regulars** — members who have attended most of the 14 episodes in Season One.
+## Who Can Join?
 
-   ## Episodes Covered
+This concluding series is **exclusively for regulars** — members who have attended most of the 14 episodes in Season One.
 
-   1. The Greedy Lawyer
-   2. The Pro Pandit's Pigeon Holes
-   3. The Book Vendor in the Modern Malgudi
-   4. King's Illegal Son(s)
-   5. Count the Pakistani Soldiers
-   6. The Placement Conundrum
-   7. The Blindfold Dart Shots
-   8. GCD and Fibonacci: Shakespeare of Computing
-   9. Baker's Problem
-   10. Calculate the Devil's Age
-   11. Calculate the Unique Vehicles Ever Parked from the Past 10 Years
-   12. The Village Marriage Problem
-   13. Binary Exponentiation
-   14. Closest Pearls on the Floor
+## Episodes Covered
+
+<details>
+<summary><strong>1. GCD and Fibonacci: Shakespeare of Computing</strong></summary>
+
+<br>
+
+Content for this episode will be updated soon. Stay tuned.
+
+</details>
+
+<details>
+<summary><strong>2. The Placement Conundrum</strong></summary>
+
+<br>
+
+Content for this episode will be updated soon. Stay tuned.
+
+</details>
+
+<details>
+<summary><strong>3. The Greedy Lawyer</strong></summary>
+
+<br>
+
+Content for this episode will be updated soon. Stay tuned.
+
+</details>
+
+<details>
+<summary><strong>4. The Pro Pandit's Pigeon Holes</strong></summary>
+
+<br>
+
+Content for this episode will be updated soon. Stay tuned.
+
+</details>
+
+<details>
+<summary><strong>5. The Book Vendor in the Modern Malgudi</strong></summary>
+
+<br>
+
+Content for this episode will be updated soon. Stay tuned.
+
+</details>
+
+<details>
+<summary><strong>6. King's Illegal Son(s)</strong></summary>
+
+<br>
+
+Content for this episode will be updated soon. Stay tuned.
+
+</details>
+
+<details>
+<summary><strong>7. Count the Pakistani Soldiers</strong></summary>
+
+<br>
+
+Content for this episode will be updated soon. Stay tuned.
+
+</details>
+
+<details>
+<summary><strong>8. The Blindfold Dart Shots</strong></summary>
+
+<br>
+
+Content for this episode will be updated soon. Stay tuned.
+
+</details>
+
+<details>
+<summary><strong>9. Baker's Problem</strong></summary>
+
+<br>
+
+Content for this episode will be updated soon. Stay tuned.
+
+</details>
+
+<details>
+<summary><strong>10. Calculate the Devil's Age</strong></summary>
+
+<br>
+
+Content for this episode will be updated soon. Stay tuned.
+
+</details>
+
+<details>
+<summary><strong>11. Calculate the Unique Vehicles Ever Parked from the Past 10 Years</strong></summary>
+
+<br>
+
+Content for this episode will be updated soon. Stay tuned.
+
+</details>
+
+<details>
+<summary><strong>12. The Village Marriage Problem</strong></summary>
+
+<br>
+
+Content for this episode will be updated soon. Stay tuned.
+
+</details>
+
+<details>
+<summary><strong>13. Binary Exponentiation</strong></summary>
+
+<br>
+
+Content for this episode will be updated soon. Stay tuned.
+
+</details>
+
+<details>
+<summary><strong>14. Closest Pearls on the Floor</strong></summary>
+
+<br>
+
+Content for this episode will be updated soon. Stay tuned.
+
+</details>
