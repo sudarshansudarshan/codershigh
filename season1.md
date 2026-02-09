@@ -2,7 +2,7 @@
 layout: page
 title: Season One
 order: 6
-permalink: /seasonone/
+permalink: /season1/
 ---
 
 # Season One
