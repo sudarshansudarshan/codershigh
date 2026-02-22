@@ -1,3 +1,7 @@
+---
+layout: home
+title: Home
+---
 
 ## Table of Contents
 * [Introduction](#introduction)
