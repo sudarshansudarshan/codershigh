@@ -1,4 +1,3 @@
-Index.md
 
 ## Table of Contents
 * [Introduction](#introduction)

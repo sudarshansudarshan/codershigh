@@ -29,3 +29,7 @@ A fast-paced, multi-day math marathon revisiting all 14 episodes from Season One
 12. [The Village Marriage Problem](/season1/S01E12/)
 13. [Binary Exponentiation](/season1/S01E13/)
 14. [Closest Pearls on the Floor](/season1/S01E14/)
+15. [Kth largest](/season1/S01E15/)
+16. [The Indian Spy](/season1/S01E16/)
+17. [8th Grade Bouncer](/season/S01E17/)
+
