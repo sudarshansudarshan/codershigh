@@ -7,12 +7,6 @@ permalink: /season1/
 
 # codershigh — Season One
 
-A fast-paced, multi-day math marathon revisiting all 14 episodes from Season One.
-
-**Schedule:** 9:30 PM every day (or alternate days, based on cohort progress).
-
-**Who Can Join?** Exclusively for regulars who attended most of the 14 episodes.
-
 ---
 
 1. [GCD and Fibonacci: Shakespeare of Computing](/season1/S01E01/)
