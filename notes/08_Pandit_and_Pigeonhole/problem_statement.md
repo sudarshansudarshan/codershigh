@@ -1,0 +1,31 @@
+---
+layout: page
+title: "08_Pandit_and_Pigeonhole - Problem Statement"
+permalink: /notes/08_pandit_and_pigeonhole/problem_statement/
+---
+
+# Topic - 8 : The Pandits and the Pigeonholes
+
+## Questions:
+### There is famous temple with a famous Pandit, and like any other famous temple the devotees are not allowed to take their mobile phones inside the temple with them. The Pandit has created 100 pigeon holes to store the mobile phones of devotees based on last 2 digits of their mobile numbers, if that is so, How these mobile phones will be distributed across the pigeon holes?
+
+### There is a twin brother of that Pandit who is also a Pandit of another famous temple, he also has similar configuration for storing mobile phones of devotees but with a little change: every pigeon hole has a small red number written on it pointing to another pigeon hole (Cuckoo Hashing), if a pigeon hole is found to be filled we go the pointed pigeon hole and continue until we find a pigeon hole where we can store the mobile phone. How does this approach perform compared to the previous approach?
+
+---
+
+## Additional Questions:
+### How is this question related to the house bombing / golden biscuits problem?
+### What are other different approaches possible for storing, retrieving mobile phones quickly?
+### How is this question related to storage in computers, does this have anything to do with data structures specially hashing?
+### Use other examples of let's say parking lot where we park cars based on their last 2 numbers of number plate, or RTO where we have stored all the licensed number plates by their last 4 digits (given a number plate is a 10 digit number).
+### What to do if a pigeon hole is completely filled? or our parking spot according to our license number is already filled?
+### What are the advantages of hashing? where to use hashing and where not to use hashing?
+
+---
+
+## Coding Assignments:
+### Create simulations of these questions and observe the outputs carefully.
+### Create visualizations / notes to see this problem visually and understand the intuition.
+### Create programs for other approaches as well and figure out the differences.
+### Understand the concepts associated with this problem deeply and try to create programs implementing those concepts.
+### Research about this problem and its applications.
