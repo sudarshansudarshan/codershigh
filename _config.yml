@@ -5,6 +5,8 @@ header_pages:
   - Faq.md
   - Alumni.md
   - Testimonials.md
+  - KrishnaGelraTeachingPlan.md
+  - KrishnaGelraMasterSummary.md
 
 
 markdown: kramdown
