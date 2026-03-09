@@ -116,8 +116,7 @@ permalink: /linalg75/
 26. Give examples of a linearly dependent set in $$\mathbb{R}^3$$ and get
     conversant with the definition.
 
-27. If $$\{\vec{u},\vec{v},\vec{w}\}$$ are such that no vector in this set can be
-    manufactured by any combination of vectors in the same set, then such
+27. If $$\{\vec{u},\vec{v},\vec{w}\}$$ are such that no vector in this set can be manufactured by any combination of vectors in the same set, then such
     a set is called a linearly independent set.
 
 28. Give examples of a linearly dependent set in $$\mathbb{R}^3$$ and
