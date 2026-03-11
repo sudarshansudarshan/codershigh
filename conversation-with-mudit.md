@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Why Every College Needs a Codershigh Chapter
+title: Why Codershigh Chapters Matter: Reimagining Intellectual Life in College
 permalink: /conversation-with-mudit/
 ---
 
