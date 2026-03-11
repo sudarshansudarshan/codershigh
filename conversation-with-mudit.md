@@ -34,9 +34,11 @@ Below is a cleaned and speaker-separated transcript of a conversation between **
 
 **Sudarshan:** How difficult is it?
 
-**Mudit:** I have a Codershigh-like club in your college, independently.
+**Mudit:** It is not very difficult.
 
-**Sudarshan:** Yeah, it will be fantastic because it enhances our visual thinking, and that’s very important. So, I am talking about the logistics of having one such club in one such place, right? Nothing stops you from there. There could be a Krishna Gelra there. There could be a Kushagra there. There could be a Jatin there. It should be allowed in there, right?
+**Sudarshan:** If we have a Codershigh-like club in your college, independently, yeah, it will be fantastic because it enhances our visual thinking, and that’s very important.
+
+**Sudarshan:** So, I am talking about the logistics of having one such club in one such place, right? Nothing stops you from there. There could be a Krishna Gelra there. There could be a Kushagra there. There could be a Jatin there. It should be allowed in there, right?
 
 So, why doesn’t it happen in this college? Why does it take—in the whole of this country—there are only nine people discussing in the name of Codershigh today. Why can’t every single college have something like this? What do you think is the reason?
 
