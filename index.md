@@ -42,3 +42,7 @@ Instead of solving placement problems, the group questions the framing itself: w
 - **We stay with the question.** A session may spend a surprising amount of time just understanding what a problem is actually asking.
 - **We think together.** The real method is collective reasoning, not parallel silent problem-solving.
 - **We do not worship speed.** The goal is clarity, not quickness.
+
+## From the blog
+
+- [A Conversation with Mudit on Codershigh](/codershigh/conversation-with-mudit/) — a speaker-separated conversation about why Codershigh matters and how similar spaces might spread to other colleges.
