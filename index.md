@@ -45,4 +45,4 @@ Instead of solving placement problems, the group questions the framing itself: w
 
 ## From the blog
 
-- [Why Codershigh Chapters Matter: Reimagining Intellectual Life in College](/codershigh/conversation-with-mudit/) — a long-form essay on why colleges need spaces for slow, collective, intellectually serious discussion.
+- [A Conversation with Mudit on Codershigh](/codershigh/conversation-with-mudit/) — a speaker-separated conversation about why Codershigh matters and how similar spaces might spread to other colleges.
