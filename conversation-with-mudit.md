@@ -64,7 +64,7 @@ Okay, so let’s catch up this weekend, guys. Now stop recording.
 
 <div style="color: #1d4ed8;">
 
-## Summary
+<h2>Summary</h2>
 
 This conversation revolves around the spirit and spread of **Codershigh**. Sudarshan and Mudit discuss why Codershigh feels meaningful, why such spaces are rare, and what prevents colleges from developing strong cultures of deep intellectual discussion. The conversation argues that students, teachers, parents, placements, and the wider world often pull learners in different directions, creating confusion and standstill. Against that background, Codershigh is imagined as a space of slow, enjoyable, discussion-driven learning — a place people come to because it is intellectually alive, socially energizing, and capable of nurturing serious thought. The larger question beneath the conversation is whether this culture can be replicated across many colleges.
 
