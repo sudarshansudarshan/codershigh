@@ -3,51 +3,42 @@ layout: home
 title: Home
 ---
 
-## Table of Contents
-* [Introduction](#introduction)
-* [What Happens in a Coders High Session?](#what-happens-in-a-coders-high-session)
-* [Our Philosophy](#our-philosophy)
-* [Who Is This For?](#who-is-this-for)
+## Codershigh
 
-## Introduction {#introduction}
+**Codershigh** is a slow-thinking intellectual community where algorithms, computer science, and mathematical ideas are explored through discussion, discomfort, intuition, and collective reasoning.
 
-Coders High is an open, collaborative learning community built on a simple yet powerful belief: **deep understanding emerges when we slow down**.
+This is not coaching, not placement theatre, and not speed-solving culture. It is a place for people who would rather think deeply than finish quickly.
 
-In an age of instant answers, shortcuts, and algorithmic thinking, Coders High deliberately moves in the opposite direction. We create a space where curiosity is valued over speed, questions matter more than answers, and learning is treated as a shared journey rather than a competitive race. This is not a class, not a coaching program, and not a problem-solving sprint—it is a collective thinking experience.
+## Where to begin
 
-Coders High is designed to help participants rediscover the joy of thinking deeply, discussing freely, and staying with uncertainty without anxiety. It is a place to go “high” on knowledge, discussion, and shared intellectual effort.
+- [Start with Season One](/codershigh/season-one/) — the clearest public entry point into how Codershigh actually works.
+- [Read the FAQ](/codershigh/faq/) — for what Codershigh is, who it is for, and how sessions work.
+- [Open the Handbook](/codershigh/handbook/) — for session culture, participation norms, and expectations.
 
+## What a session actually looks like
 
+Codershigh is best understood through real examples from Season One.
 
-## What Happens in a Coders High Session? {#what-happens-in-a-coders-high-session}
+### The Greedy Lawyer
 
-A typical Coders High session begins with a single question. We may spend the first 20 minutes—or more—just understanding it. There is no rush to solve, no pressure to perform, and no temptation to look up answers. We keep our *wings off*: no Google, no ChatGPT, no external aids.
+A revenue-maximization puzzle becomes an exploration of assumptions, alternative framings, and why the obvious answer misses the deeper problem.
 
-Discussion is the primary tool. Participants explore multiple ways of thinking about the same question, often intentionally making it more complex or confusing. We ask as many questions as possible—but crucially, **questions about the question**, not about the solution. One question often branches into many: Q₁, Q₂, Q₃, and beyond. Sometimes we arrive at answers whose original questions are still unknown.
+[Explore this case](/codershigh/Season1/S01E03/)
 
-Sessions often last two hours or more, and sometimes we never arrive at a final answer. That is not a problem. Staying with uncertainty keeps the discussion alive and sustains the “high” state—one marked by curiosity, humility, and deep engagement.
+### The Book Vendor in Modern Malgudi
 
+What looks like a story problem about a vendor turns into a discussion about optimization, constraints, and the gap between textbook mathematics and real-world selling.
 
+[Explore this case](/codershigh/Season1/S01E05/)
 
-## Our Philosophy {#our-philosophy}
+### The Placement Conundrum
 
-Coders High is built on a few core principles:
+Instead of solving placement problems, the group questions the framing itself: why do we solve these problems the way we do, and what assumptions hide inside interview preparation?
 
-- **Slow is powerful**: While the world moves at 2× speed, Coders High operates at 0.1×—by choice.
-- **The question comes first**: A well-understood question is already half solved.
-- **Discomfort is productive**: We enjoy being in the zone of discomfort and are comfortable staying there for long periods.
-- **Clarity over jargon**: Jargon is discouraged; clarity is celebrated.
-- **The weakest link leads**: The slowest person is placed at the front, because the strength of the group is defined by its weakest link.
+[Explore this case](/codershigh/Season1/S01E02/)
 
-We respectfully disrespect the syllabus. Coverage is secondary; understanding is primary. Learning is churned through discussion—much like *Samudra Manthan*—and insight, if it appears, is a by-product rather than a target.
+## Why Codershigh feels different
 
-
-
-## Who Is This For? {#who-is-this-for}
-
-Coders High is for anyone who values curiosity over credentials and depth over speed. It is for learners who are comfortable saying “I don’t know,” who enjoy asking naïve questions, and who find joy in collective thinking.
-
-This is not about finishing first. It is about finishing last—like a slow bicycle race where balance, patience, and awareness matter more than speed. Coders High is for those who want to stay hungry, stay foolish, and retain the curiosity of a child in a candy store.
-
-**Coders High has only one agenda: there is none.**
-
+- **We stay with the question.** A session may spend a surprising amount of time just understanding what a problem is actually asking.
+- **We think together.** The real method is collective reasoning, not parallel silent problem-solving.
+- **We do not worship speed.** The goal is clarity, not quickness.

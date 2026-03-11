@@ -1,39 +1,37 @@
 ---
 layout: page
-title: Handbook 
+title: Handbook
 permalink: /handbook/
-toc: true
 ---
 
-* TOC
-{:toc}
+The Codershigh handbook describes the culture of the space more than a rigid set of rules.
 
-# Teaching Team
+## Session culture
 
-| Name                      | Email                     |
-| -------------------------| -------------------------|
-| Umesh | 2022csb1139@iitrpr.ac.in |
-| Jignesh | 2021mcb1181@iitrpr.ac.in |
-| Sankalp | 2022csb1137@iitrpr.ac.in |
-| Arav | 
-| Utkarsh | 2022csb1140@iitrpr.ac.in |
-| Satvik | 2022csb1120@iitrpr.ac.in |
-| -------------------------| -------------------------|
+- **Questions first.** We try to understand the question before trying to solve it.
+- **No rush to closure.** A session may remain open-ended for a long time.
+- **Clarity over jargon.** If an idea cannot be said simply, we probably do not understand it well enough yet.
+- **Discussion over performance.** The value of a session comes from collective reasoning, not individual display.
 
-# Class Timings
-TBA
+## Participation norms
 
-# Introduction
+- Naïve questions are welcome.
+- Disagreement should clarify, not dominate.
+- People are encouraged to think aloud.
+- Slowness is not a weakness here.
+- Confusion is often the beginning of insight.
 
-The missing semester is a student driven initiative to conduct lecture sessions by inviting experts to handle topics of interest to freshers. The two point purpose of missing semesster is : 
-1. To cover some of the most important tools to be an effective learner.
-2. To cover some of the cool ideas without subjecting anyone to the academic pressures of test/assignment/exams. 
+## What facilitators do
 
-# Brain Teasers
-The class will comprise of several concepts, details of which will be present in the [journey](/missingsemester/journey/) database. Your mentors will help you understand these concepts in detail. 
+Facilitators do not simply deliver answers. They hold the space, sharpen the question, connect scattered ideas, and help the group notice deeper structure.
 
-# Mentorship
+## What Codershigh is not
 
-To facilitate accelerated learning, we will be dividing all the students into 6 groups. Each group will be headed by a mentor who will be a senior Btech CSE student. The student will help you finish the Brain Teasers on time and will make the journey fun, rewarding and engaging. 
+Codershigh is not:
 
+- a placement-prep funnel
+- a speed-solving competition
+- a coaching factory
+- a content-coverage machine
 
+It is a space for serious, shared intellectual adventure.

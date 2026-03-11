@@ -1,14 +1,11 @@
-
-
-
-header_pages:  
+header_pages:
+  - About.md
+  - SeasonOne.md
   - Faq.md
+  - Handbook.md
   - Alumni.md
   - Testimonials.md
-  - KrishnaGelraTeachingPlan.md
-  - KrishnaGelraMasterSummary.md
   - Notes.md
-
 
 markdown: kramdown
 title: Codershigh
@@ -33,4 +30,3 @@ collections:
   case_studies:
     output: true
     permalink: /case-studies/:slug/
-
