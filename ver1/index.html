@@ -6,71 +6,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>index</title>
   
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
   <link rel="stylesheet" href="/codershigh/ver1/assets/css/main.css">
   <style>
-    .v1-wrap{padding-top:2rem;padding-bottom:2rem}
-    .v1-note{font-size:.95rem;color:var(--global-text-color-light)}
-    .v1-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin:1rem 0 2rem}
-    .v1-card{border:1px solid var(--global-divider-color);border-radius:.5rem;padding:1rem;background:var(--global-card-bg-color)}
-    .v1-card h3{margin-top:0}
-    .v1-links li{margin:.4rem 0}
+    body.fixed-top-nav { padding-top: 56px; }
+    .container.mt-5 { margin-top: 2rem !important; }
+    .contact-note { color: var(--global-text-color-light); font-size: 0.9rem; }
+    .profile.placeholder .img-fluid { width:100%; height:220px; object-fit:cover; background:#f3f3f3; border:1px solid var(--global-divider-color); }
+    .profile.placeholder .img-fluid::before { content:''; }
+    .v1-placeholder-box { width:100%; height:220px; border-radius:.25rem; border:1px solid var(--global-divider-color); background:linear-gradient(180deg,#fafafa,#f0f0f0); display:flex; align-items:center; justify-content:center; color:var(--global-text-color-light); margin-bottom:1rem; }
+    .v1-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1rem; margin:1rem 0 2rem; }
+    .v1-card { background:var(--global-card-bg-color); border:1px solid var(--global-divider-color); border-radius:.25rem; padding:1rem; }
+    .v1-card h3 { margin-top:0; }
   </style>
 </head>
-<body>
+<body class="fixed-top-nav sticky-bottom-footer">
 <header>
-<nav id="navbar" class="navbar navbar-light navbar-expand-sm sticky-top" role="navigation">
-  <div class="container">
-    <a class="navbar-brand title font-weight-lighter" href="/codershigh/ver1/">Codershigh</a>
-    <div class="navbar-collapse text-right" id="navbarNav">
-      <ul class="navbar-nav ml-auto flex-nowrap">
-        <li class="nav-item"><a class="nav-link" href="/codershigh/ver1/about.html">about</a></li>
-        <li class="nav-item"><a class="nav-link" href="/codershigh/ver1/season-one.html">season one</a></li>
-        <li class="nav-item"><a class="nav-link" href="/codershigh/ver1/faq.html">faq</a></li>
-        <li class="nav-item"><a class="nav-link" href="/codershigh/ver1/handbook.html">handbook</a></li>
-        <li class="nav-item"><a class="nav-link" href="/codershigh/ver1/resources.html">resources</a></li>
-        <li class="nav-item"><a class="nav-link" href="/codershigh/ver1/testimonials.html">testimonials</a></li>
-        <li class="nav-item"><a class="nav-link" href="/codershigh/ver1/alumni.html">alumni</a></li>
-      </ul>
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      <a class="navbar-brand title font-weight-lighter" href="/codershigh/ver1/">Codershigh</a>
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item"><a class="nav-link" href="/codershigh/ver1/about.html">about</a></li>
+          <li class="nav-item"><a class="nav-link" href="/codershigh/ver1/season-one.html">season one</a></li>
+          <li class="nav-item"><a class="nav-link" href="/codershigh/ver1/faq.html">faq</a></li>
+          <li class="nav-item"><a class="nav-link" href="/codershigh/ver1/handbook.html">handbook</a></li>
+          <li class="nav-item"><a class="nav-link" href="/codershigh/ver1/resources.html">resources</a></li>
+          <li class="nav-item"><a class="nav-link" href="/codershigh/ver1/testimonials.html">testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="/codershigh/ver1/alumni.html">alumni</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="container mt-5" role="main"><div class="post">
+<header class="post-header">
+  <h1 class="post-title">Codershigh</h1>
+  <p class="desc">a slow-thinking learning community for algorithms, computer science, and collective reasoning</p>
+</header>
+<article>
+  <div class="profile float-right placeholder">
+    <div class="v1-placeholder-box">Codershigh</div>
+    <div class="more-info">
+      <p>discussion-first</p>
+      <p>anti-speed-solving</p>
+      <p>best entry: Season One</p>
     </div>
   </div>
-</nav>
-</header>
-<main class="container v1-wrap"><div class="post">
-  <header class="post-header">
-    <h1 class="post-title">Codershigh</h1>
-    <p class="desc">a slow-thinking learning community for algorithms, computer science, and collective reasoning</p>
-  </header>
-  <article>
-    <div class="profile float-right">
-      <div class="more-info">
-        <p>discussion-first</p><br>
-        <p>anti-speed-solving</p><br>
-        <p>best entry: Season One</p>
-      </div>
+  <div class="clearfix">
+    <p>Codershigh is where algorithms become a shared intellectual adventure, not a race to finish first. We stay with a question long enough to understand what it is really asking, what assumptions hide beneath it, and what deeper ideas connect to it.</p>
+    <p>This is not coaching, not placement theatre, and not speed-solving culture. It is a place for people who would rather think deeply than finish quickly.</p>
+    <h2>where to begin</h2>
+    <ul>
+      <li><a href="/codershigh/ver1/season-one.html">Season One</a> — the strongest structured doorway into Codershigh.</li>
+      <li><a href="/codershigh/ver1/faq.html">FAQ</a> — what Codershigh is, who it is for, and how sessions work.</li>
+      <li><a href="/codershigh/ver1/handbook.html">Handbook</a> — session culture, participation norms, and facilitator role.</li>
+    </ul>
+    <h2>what a session actually looks like</h2>
+    <div class="v1-grid">
+      <div class="v1-card"><h3>The Greedy Lawyer</h3><p>A revenue-maximization puzzle becomes an exploration of assumptions, alternative framings, and why the obvious answer misses the deeper problem.</p></div>
+      <div class="v1-card"><h3>The Book Vendor in Modern Malgudi</h3><p>A story problem opens into a discussion about optimization, constraints, and the gap between textbook math and real-world reasoning.</p></div>
+      <div class="v1-card"><h3>The Placement Conundrum</h3><p>Instead of solving placement problems, the group questions the framing itself: why do we solve these problems the way we do?</p></div>
     </div>
-    <div class="clearfix">
-      <p>Codershigh is where algorithms become a shared intellectual adventure, not a race to finish first. We stay with a question long enough to understand what it is really asking, what assumptions hide beneath it, and what deeper ideas connect to it.</p>
-      <p>This is not coaching, not placement theatre, and not speed-solving culture. It is a place for people who would rather think deeply than finish quickly.</p>
-      <h2>where to begin</h2>
-      <ul class="v1-links">
-        <li><a href="/codershigh/ver1/season-one.html">Season One</a> — the strongest structured doorway into Codershigh.</li>
-        <li><a href="/codershigh/ver1/faq.html">FAQ</a> — what Codershigh is, who it is for, and how sessions work.</li>
-        <li><a href="/codershigh/ver1/handbook.html">Handbook</a> — session culture, participation norms, and facilitator role.</li>
-      </ul>
-      <h2>what a session actually looks like</h2>
-      <div class="v1-cards">
-        <div class="v1-card"><h3>The Greedy Lawyer</h3><p>A revenue-maximization puzzle becomes an exploration of assumptions, alternative framings, and why the obvious answer misses the deeper problem.</p></div>
-        <div class="v1-card"><h3>The Book Vendor in Modern Malgudi</h3><p>A story problem opens into a discussion about optimization, constraints, and the gap between textbook math and real-world reasoning.</p></div>
-        <div class="v1-card"><h3>The Placement Conundrum</h3><p>Instead of solving placement problems, the group questions the framing itself: why do we solve these problems the way we do?</p></div>
-      </div>
-      <h2>why Codershigh feels different</h2>
-      <ul>
-        <li><strong>We stay with the question.</strong> Understanding comes before solving.</li>
-        <li><strong>We think together.</strong> The method is collective reasoning, not parallel silent work.</li>
-        <li><strong>We do not worship speed.</strong> The goal is clarity, not quickness.</li>
-      </ul>
-    </div>
-  </article>
-</div></main>
+    <h2>why Codershigh feels different</h2>
+    <ul>
+      <li><strong>We stay with the question.</strong> Understanding comes before solving.</li>
+      <li><strong>We think together.</strong> The method is collective reasoning, not parallel silent work.</li>
+      <li><strong>We do not worship speed.</strong> The goal is clarity, not quickness.</li>
+    </ul>
+  </div>
+</article>
+</div></div>
+<footer class="fixed-bottom-nav footer"><div class="container mt-0"><div class="footer-inner"><div>Codershigh</div><div class="contact-note">al-folio port experiment under <code>/ver1</code></div></div></div></footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
