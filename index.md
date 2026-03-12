@@ -14,6 +14,7 @@ This is not coaching, not placement theatre, and not speed-solving culture. It i
 - [Start with Season One](/codershigh/season-one/) — the clearest public entry point into how Codershigh actually works.
 - [Read the FAQ](/codershigh/faq/) — for what Codershigh is, who it is for, and how sessions work.
 - [Open the Handbook](/codershigh/handbook/) — for session culture, participation norms, and expectations.
+- [Podcast](/codershigh/podcast/) — reflective essays and long-form thinking emerging from serious conversations on learning, attention, and pedagogy.
 
 ## What a session actually looks like
 
@@ -42,6 +43,10 @@ Instead of solving placement problems, the group questions the framing itself: w
 - **We stay with the question.** A session may spend a surprising amount of time just understanding what a problem is actually asking.
 - **We think together.** The real method is collective reasoning, not parallel silent problem-solving.
 - **We do not worship speed.** The goal is clarity, not quickness.
+
+## From the podcast
+
+- [When Learning Stops Walking Straight](/codershigh/podcast/) — a reflective essay on learner attention, non-linear exploration, and the challenge of designing education for a changing cognitive environment.
 
 ## From the blog
 
