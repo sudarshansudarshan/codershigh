@@ -46,6 +46,7 @@ Instead of solving placement problems, the group questions the framing itself: w
 
 ## From the podcast
 
+- [Discovery Before Depth](/codershigh/march14-03-26/) — a reflective essay on curiosity, employability, competition, and the unresolved tension between education for life and education for livelihood.
 - [When Learning Stops Walking Straight](/codershigh/podcast/) — a reflective essay on learner attention, non-linear exploration, and the challenge of designing education for a changing cognitive environment.
 
 ## From the blog
