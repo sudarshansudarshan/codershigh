@@ -394,7 +394,7 @@ This problem is a classic example of the **Optimal Stopping Theory** in probabil
 
 Let's start by looking at a simple Markov process involving two states: Happy and Stressed.
 
-![Markov Process with Two States: Happy and Stressed](/machinelearning/assets/images/markov1.png)
+![Markov Process with Two States: Happy and Stressed](/machinelearning/assets/images/general/markov1.png)
 
 In the figure above, we have two states: Happy and Stressed.
 
@@ -406,9 +406,9 @@ Now, consider an initial scenario where there are 1000 people in the Happy state
 
 Let's try to do this for two iterations:
 
-![Distribution After Two Iterations](/machinelearning/assets/images/markov2.png)
-![Distribution After Two Iterations](/machinelearning/assets/images/markov3.png)
-![Distribution After Two Iterations](/machinelearning/assets/images/markov4.png)
+![Distribution After Two Iterations](/machinelearning/assets/images/general/markov2.png)
+![Distribution After Two Iterations](/machinelearning/assets/images/general/markov3.png)
+![Distribution After Two Iterations](/machinelearning/assets/images/general/markov4.png)
 
 Do you notice how the distribution changes after two iterations?
 
@@ -487,7 +487,7 @@ $$
 
 So, to find the eventual distribution, would you keep performing matrix multiplications repeatedly?
 
-![EVD](/machinelearning/assets/images/EVD1.png)
+![EVD](/machinelearning/assets/images/general/EVD1.png)
 
 But do you realize that you don't need to do the matrix multiplication all the time? You just need to find $$M^{n}$$.
 
@@ -505,11 +505,11 @@ $$
 
 where $$v$$ is the eigenvector and $$\lambda$$ is the corresponding eigenvalue.
 
-![EVD](/machinelearning/assets/images/EVD2.png)
+![EVD](/machinelearning/assets/images/general/EVD2.png)
 
 Multiplying a matrix by a vector $$v$$ $$n$$ times is equivalent to raising the matrix to the power $$n$$.
 
-![EVD](/machinelearning/assets/images/EVD3.png)
+![EVD](/machinelearning/assets/images/general/EVD3.png)
 
 
 Now, do you realize the importance and power of eigenvectors? They can be used to find any power of $$A$$ in no time.
@@ -527,8 +527,8 @@ $$
 
 **Derivation for convergence in Markov Matrix**
 
-![Markov Convergence Derivation](/machinelearning/assets/images/markovder1.png)
-![Markov Convergence Derivation](/machinelearning/assets/images/markovder2.png)
+![Markov Convergence Derivation](/machinelearning/assets/images/general/markovder1.png)
+![Markov Convergence Derivation](/machinelearning/assets/images/general/markovder2.png)
 
 
 ---
