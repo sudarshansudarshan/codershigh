@@ -103,7 +103,7 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
     <h3 class="hof-name">Alok Bhushan</h3>
     <span class="hof-tag">🌟 Star Contributor</span>
     <div class="hof-links">
-      <a href="https://www.linkedin.com/in/aparna-jha-8b2489344/">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/alok-bhushan-24505844/">LinkedIn</a>
     </div>
   </div>
 
