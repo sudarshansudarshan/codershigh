@@ -16,11 +16,11 @@
           </span>
         </label>
 
-        <div class="trigger" style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
+        <div class="trigger">
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}" style="font-size: 0.85rem; padding: 4px 8px;">{{ my_page.title | escape }}</a>
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
         </div>
@@ -28,25 +28,3 @@
     {%- endif -%}
   </div>
 </header>
-
-<style>
-  .site-header .wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .site-nav {
-    float: none !important;
-  }
-  @media (max-width: 900px) {
-    .site-header .wrapper {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    .site-nav {
-      width: 100%;
-      margin-top: 10px;
-    }
-  }
-</style>
