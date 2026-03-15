@@ -125,6 +125,26 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
       <a target="_blank" href="https://www.linkedin.com/in/debasmit/">LinkedIn</a>
     </div>
   </div>
+
+  <!-- Contributor 3 -->
+  <div class="hof-card">
+    <img src="/codershigh/assets/images/Ishant_Jindal.jpg" alt="Ishant Jindal" class="hof-avatar">
+    <h3 class="hof-name">Ishant Jindal</h3>
+    <span class="hof-tag">🌟 Star Contributor</span>
+    <div class="hof-links">
+      <a target="_blank" href="https://www.linkedin.com/in/ij007/">LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- Contributor 3 -->
+  <div class="hof-card">
+    <img src="/codershigh/assets/images/Jainendra_Tiwari.png" alt="Jainendra Tiwari" class="hof-avatar">
+    <h3 class="hof-name">Jainendra Tiwari</h3>
+    <span class="hof-tag">🌟 Star Contributor</span>
+    <div class="hof-links">
+      <a target="_blank" href="https://www.linkedin.com/in/jainendra-tiwari/">LinkedIn</a>
+    </div>
+  </div>
   
   <!-- Contributor 4 -->
   <div class="hof-card">
@@ -138,11 +158,21 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
   
   <!-- Contributor 5 -->
   <div class="hof-card">
-    <img src="https://media.licdn.com/dms/image/v2/D4D03AQFS6eZBcznULA/profile-displayphoto-scale_400_400/B4DZf0oiziHMAg-/0/1752155961333?e=1775088000&v=beta&t=5T0iVrYg5d3FJb_RmLLoPJ8RO5fjZlAzVwOE_Ipd2cw" alt="Jatin Kumar" class="hof-avatar">
+    <img src="/codershigh/assets/images/Jatin_Kumar.jpg" alt="Jatin Kumar" class="hof-avatar">
     <h3 class="hof-name">Jatin Kumar</h3>
     <span class="hof-tag">🌟 Star Contributor</span>
     <div class="hof-links">
       <a target="_blank" href="https://www.linkedin.com/in/jatin-kumar-cyber/">LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- Contributor 5 -->
+  <div class="hof-card">
+    <img src="/codershigh/assets/images/Khushi_Kumari.jpg" alt="Khushi Kumari" class="hof-avatar">
+    <h3 class="hof-name">Khushi Kumari</h3>
+    <span class="hof-tag">🌟 Star Contributor</span>
+    <div class="hof-links">
+      <a target="_blank" href="https://www.linkedin.com/in/khushi-kumari-90a7561b3/">LinkedIn</a>
     </div>
   </div>
   
@@ -156,6 +186,26 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
     </div>
   </div>
   
+  <!-- Contributor 8 -->
+  <div class="hof-card">
+    <img src="/codershigh/assets/images/Madhavi_Mullagiri.jpg" alt="Madhavi Mullagiri" class="hof-avatar">
+    <h3 class="hof-name">Madhavi Mullagiri</h3>
+    <span class="hof-tag">🌟 Star Contributor</span>
+    <div class="hof-links">
+      <a target="_blank" href="https://www.linkedin.com/in/madhavim/">LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- Contributor 7 -->
+  <div class="hof-card">
+    <img src="/codershigh/assets/images/Maria_Thurkadayil.jpg" alt="Maria Thurkadayil" class="hof-avatar">
+    <h3 class="hof-name">Maria Thurkadayil</h3>
+    <span class="hof-tag">🌟 Star Contributor</span>
+    <div class="hof-links">
+      <a target="_blank" href="https://www.linkedin.com/in/mariapault/">LinkedIn</a>
+    </div>
+  </div>
+
   <!-- Contributor 7 -->
   <div class="hof-card">
     <img src="/codershigh/assets/images/Mayura_Tapkire.jpg" alt="Mayura Tapkire" class="hof-avatar">
@@ -165,14 +215,14 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
       <a target="_blank" href="https://www.linkedin.com/in/mayura-tapkire-1245272ab/">LinkedIn</a>
     </div>
   </div>
-  
-  <!-- Contributor 8 -->
+
+  <!-- Contributor 7 -->
   <div class="hof-card">
-    <img src="/codershigh/assets/images/Madhavi_Mullagiri.jpg" alt="Madhavi Mullagiri" class="hof-avatar">
-    <h3 class="hof-name">Madhavi Mullagiri</h3>
+    <img src="/codershigh/assets/images/Prakhar_Gupta.jpg" alt="Prakhar Gupta" class="hof-avatar">
+    <h3 class="hof-name">Prakhar Gupta</h3>
     <span class="hof-tag">🌟 Star Contributor</span>
     <div class="hof-links">
-      <a target="_blank" href="https://www.linkedin.com/in/madhavim/">LinkedIn</a>
+      <a target="_blank" href="https://www.linkedin.com/in/prakhar-kselis/">LinkedIn</a>
     </div>
   </div>
   
@@ -183,6 +233,26 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
     <span class="hof-tag">🌟 Star Contributor</span>
     <div class="hof-links">
       <a target="_blank" href="https://www.linkedin.com/in/shristi-choudhary-797a91323/">LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- Contributor 9 -->
+  <div class="hof-card">
+    <img src="/codershigh/assets/images/Srivinay_Sridhar.jpg" alt="Srivinay Sridhar" class="hof-avatar">
+    <h3 class="hof-name">Srivinay Sridhar</h3>
+    <span class="hof-tag">🌟 Star Contributor</span>
+    <div class="hof-links">
+      <a target="_blank" href="https://www.linkedin.com/in/srivinays/">LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- Contributor 9 -->
+  <div class="hof-card">
+    <img src="/codershigh/assets/images/Zuhair_Khatib.jpg" alt="Zuhair Khatib" class="hof-avatar">
+    <h3 class="hof-name">Zuhair Khatib</h3>
+    <span class="hof-tag">🌟 Star Contributor</span>
+    <div class="hof-links">
+      <a target="_blank" href="https://www.linkedin.com/in/zuhair-khatib/">LinkedIn</a>
     </div>
   </div>
   
