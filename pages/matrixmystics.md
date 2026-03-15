@@ -2,7 +2,7 @@
 layout: page
 title: Matrix Mystics
 order: 5
-permalink: /matrixmystics1/
+permalink: /matrixmystics/
 ---
 
 * TOC
@@ -11,14 +11,6 @@ permalink: /matrixmystics1/
 
 
 ___
-1. We need to include a Geogebra picture here.
-<iframe
-  src="https://www.geogebra.org/material/iframe/id/ajeuzeqt/width/800/height/450/border/888/sfsb/true/smb/false/stb/false/stbh/false/ai/true"
-  width="800"
-  height="450"
-  style="border:1px solid #ccc;"
-  allowfullscreen>
-</iframe>
 
 1. Ram and Lakshman were two brothers, Ram's pocket money was twice as much as Lakshman. The good boy that Ram and Lakshman were, they did not spend their pocket money on anything. They instead saved the same in their piggy bank. Every week, they would check their savings so far. Assume the first week's savings was $$(R_1,L_1)$$ and second week's $$(R_2,L_2)$$ and so on. They try plotting their weekly savings on a graph sheet. How will the points look like?
 
@@ -123,11 +115,11 @@ $$
 4. One obvious way to solve this, is to guess the values :-). Can you get closer to the solution by guessing? Note that there is no solution to this question. You can just reduce the error. Do you see why?
 
 5. In the figure below:
-![fig1](/codershigh/assets/markov2.png)
+![fig1](/assets/markov2.png)
 If 1000 people were to start in one state, what will be the distribution of people eventually?
 
 5. In the figure below:
-![fig2](/codershigh/assets/markov3.png)
+![fig2](/assets/markov3.png)
 If 1000 people were to start in one state, what will be the distribution of people eventually?
 
 # Module 3
