@@ -583,7 +583,7 @@ Therefore, LHS can only be a linear combination of the vectors \((3,1,1)\) and \
    </details><br>
 
 22.In the figure below:
-![fig1](/codershigh/assets/markov2.png)
+![fig1](/assets/markov2.png)
 If 1000 people were to start in one state, what will be the distribution of people eventually? Write down a python script to find the convergence.
    <details closed>
    <summary>Sol.</summary>
@@ -648,7 +648,7 @@ print(final_distribution, percentage_distribution) -->
 
 
 23.In the figure below:
-![fig2](/codershigh/assets/markov3.png)
+![fig2](/assets/markov3.png)
 If 1000 people were to start in one state, what will be the distribution of people eventually? Write down a python script to find the convergence.
    <details closed>
    <summary>Sol.</summary>
