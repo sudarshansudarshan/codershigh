@@ -14,7 +14,9 @@ This is not coaching, not placement theatre, and not speed-solving culture. It i
 - [Start with Season One](/codershigh/season-one/) — the clearest public entry point into how Codershigh actually works.
 - [Read the FAQ](/codershigh/faq/) — for what Codershigh is, who it is for, and how sessions work.
 - [Open the Handbook](/codershigh/handbook/) — for session culture, participation norms, and expectations.
+- [View the Hall of Fame](/codershigh/hall-of-fame/) — a living record of memorable learners and standout contributions.
 - [Podcast](/codershigh/podcast/) — reflective essays and long-form thinking emerging from serious conversations on learning, attention, and pedagogy.
+
 
 ## What a session actually looks like
 
