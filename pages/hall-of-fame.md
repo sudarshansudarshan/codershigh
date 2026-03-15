@@ -225,6 +225,16 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
       <a target="_blank" href="https://www.linkedin.com/in/prakhar-kselis/">LinkedIn</a>
     </div>
   </div>
+
+  <!-- Contributor 7 -->
+  <div class="hof-card">
+    <img src="/codershigh/assets/images/Saniya_Syed.png" alt="Saniya Syed" class="hof-avatar">
+    <h3 class="hof-name">Saniya Syed</h3>
+    <span class="hof-tag">🌟 Star Contributor</span>
+    <div class="hof-links">
+      <a target="_blank" href="https://www.linkedin.com/in/saniya-s-b0a69a357/">LinkedIn</a>
+    </div>
+  </div>
   
   <!-- Contributor 9 -->
   <div class="hof-card">
