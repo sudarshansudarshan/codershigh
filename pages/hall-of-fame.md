@@ -267,3 +267,7 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
   </div>
   
 </div>
+
+<div class="hof-disclaimer" style="margin-top: 50px; padding: 20px; background-color: #f8f9fa; border-left: 4px solid #00b894; border-radius: 4px; color: #2d3436; font-size: 0.95rem; line-height: 1.6;">
+  <strong>Note on Updates:</strong> The Hall of Fame is an active, living record updated on a monthly basis. New contributors who consistently engage and participate over a 1-2 month period will be recognized and added here. Similarly, to ensure the list reflects the current active energy of the cohort, contributors who become inactive or inconsistent for 1-2 months may be removed. Codershigh values sustained presence, collective effort, and continuous intellectual contribution.
+</div>
