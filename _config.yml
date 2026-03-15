@@ -1,11 +1,11 @@
 header_pages:
-  - About.md
-  - SeasonOne.md
-  - Faq.md
-  - Handbook.md
-  - Alumni.md
-  - Testimonials.md
-  - Notes.md
+  - pages/about.md
+  - pages/season-one.md
+  - pages/faq.md
+  - pages/handbook.md
+  - pages/alumni.md
+  - pages/testimonials.md
+  - pages/notes.md
 
 markdown: kramdown
 title: Codershigh
@@ -24,6 +24,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+exclude:
+  - backup/
+  - ver1/
+  - ver2/
+  - _internal/
+  - scripts/
 timezone: Asia/Kolkata
 
 collections:

@@ -11,22 +11,22 @@ These sessions show what Codershigh actually feels like: discussion-first, conce
 ## Featured sessions
 
 1. **GCD and Fibonacci: Shakespeare of Computing**  
-   [Open session](/codershigh/Season1/S01E01/)
+   [Open session](/season1/S01E01/)
 
 2. **The Placement Conundrum**  
-   [Open session](/codershigh/Season1/S01E02/)
+   [Open session](/season1/S01E02/)
 
 3. **The Greedy Lawyer**  
-   [Open session](/codershigh/Season1/S01E03/)
+   [Open session](/season1/S01E03/)
 
 4. **The Pro Pandit's Pigeon Holes**  
-   [Open session](/codershigh/Season1/S01E04/)
+   [Open session](/season1/S01E04/)
 
 5. **The Book Vendor in Modern Malgudi**  
-   [Open session](/codershigh/Season1/S01E05/)
+   [Open session](/season1/S01E05/)
 
 6. **King's Illegal Son(s)**  
-   [Open session](/codershigh/Season1/S01E06/)
+   [Open session](/season1/S01E06/)
 
 ## Why start here?
 
