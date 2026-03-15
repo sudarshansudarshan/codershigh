@@ -93,73 +93,98 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
 
 <div class="hof-header" id="season-1">
   <h1>🏆 Hall of Fame</h1>
-  <p>Season 1 Star Contributors</p>
+  <p>Star Contributors</p>
 </div>
 
 <div class="hof-grid">
   <!-- Contributor 1 -->
   <div class="hof-card">
-    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Ankit" alt="Ankit" class="hof-avatar">
-    <h3 class="hof-name">Ankit Sharma</h3>
+    <img src="/codershigh/assets/images/Alok_Bhushan.jpg" alt="Alok Bhushan" class="hof-avatar">
+    <h3 class="hof-name">Alok Bhushan</h3>
     <span class="hof-tag">🌟 Star Contributor</span>
-    <p class="hof-quote">"Coders High taught me to think from first principles. No more copying without understanding!"</p>
     <div class="hof-links">
-      <a href="#">GitHub</a> • <a href="#">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/alok-bhushan-24505844/">LinkedIn</a>
     </div>
   </div>
-  
+
   <!-- Contributor 2 -->
   <div class="hof-card">
-    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Priya" alt="Priya" class="hof-avatar">
-    <h3 class="hof-name">Priya Patel</h3>
+    <img src="/codershigh/assets/images/Aparna_Jha.jpg" alt="Aparna Jha" class="hof-avatar">
+    <h3 class="hof-name">Aparna Jha</h3>
     <span class="hof-tag">🌟 Star Contributor</span>
-    <p class="hof-quote">"The community discussions helped me grasp algorithms without the intimidating math."</p>
     <div class="hof-links">
-      <a href="#">GitHub</a> • <a href="#">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/aparna-jha-8b2489344/">LinkedIn</a>
     </div>
   </div>
   
   <!-- Contributor 3 -->
   <div class="hof-card">
-    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Rahul" alt="Rahul" class="hof-avatar">
-    <h3 class="hof-name">Rahul Verma</h3>
+    <img src="/codershigh/assets/images/Debasmit_Mohanty.jpg" alt="Debasmit Mohanty" class="hof-avatar">
+    <h3 class="hof-name">Debasmit Mohanty</h3>
     <span class="hof-tag">🌟 Star Contributor</span>
-    <p class="hof-quote">"Finally understood how computers actually think. Game changer for my projects!"</p>
     <div class="hof-links">
-      <a href="#">GitHub</a> • <a href="#">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/debasmit/">LinkedIn</a>
     </div>
   </div>
   
   <!-- Contributor 4 -->
   <div class="hof-card">
-    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Sneha" alt="Sneha" class="hof-avatar">
-    <h3 class="hof-name">Sneha Gupta</h3>
+    <img src="/codershigh/assets/images/Jatin_Goyal.jpg" alt="Jatin Goyal" class="hof-avatar">
+    <h3 class="hof-name">Jatin Goyal</h3>
     <span class="hof-tag">🌟 Star Contributor</span>
-    <p class="hof-quote">"Coders High made programming fun again. Love the first-principles approach!"</p>
     <div class="hof-links">
-      <a href="#">GitHub</a> • <a href="#">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/jating4you/">LinkedIn</a>
     </div>
   </div>
   
   <!-- Contributor 5 -->
   <div class="hof-card">
-    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Arjun" alt="Arjun" class="hof-avatar">
-    <h3 class="hof-name">Arjun Reddy</h3>
+    <img src="/codershigh/assets/images/Jatin_Kumar.jpg" alt="Jatin Kumar" class="hof-avatar">
+    <h3 class="hof-name">Jatin Kumar</h3>
     <span class="hof-tag">🌟 Star Contributor</span>
-    <p class="hof-quote">"The collaborative problem-solving approach is unlike anything else."</p>
     <div class="hof-links">
-      <a href="#">GitHub</a> • <a href="#">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/jatin-kumar-cyber/">LinkedIn</a>
     </div>
   </div>
   
   <!-- Contributor 6 -->
   <div class="hof-card">
-    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Meera" alt="Meera" class="hof-avatar">
-    <h3 class="hof-name">Meera Nair</h3>
+    <img src="/codershigh/assets/images/Krishna_Gelra.jpg" alt="Krishna Gelra" class="hof-avatar">
+    <h3 class="hof-name">Krishna Gelra</h3>
     <span class="hof-tag">🌟 Star Contributor</span>
-    <p class="hof-quote">"Learned to break down complex problems into bite-sized pieces."</p>
     <div class="hof-links">
-      <a href="#">GitHub</a> • <a href="#">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/krishna-gelra/">LinkedIn</a>
     </div>
   </div>
+  
+  <!-- Contributor 7 -->
+  <div class="hof-card">
+    <img src="/codershigh/assets/images/Mayura_Tapkire.jpg" alt="Mayura Tapkire" class="hof-avatar">
+    <h3 class="hof-name">Mayura Tapkire</h3>
+    <span class="hof-tag">🌟 Star Contributor</span>
+    <div class="hof-links">
+      <a href="https://www.linkedin.com/in/mayura-tapkire-1245272ab/">LinkedIn</a>
+    </div>
+  </div>
+  
+  <!-- Contributor 8 -->
+  <div class="hof-card">
+    <img src="/codershigh/assets/images/Madhavi_Mullagiri.jpg" alt="Madhavi Mullagiri" class="hof-avatar">
+    <h3 class="hof-name">Madhavi Mullagiri</h3>
+    <span class="hof-tag">🌟 Star Contributor</span>
+    <div class="hof-links">
+      <a href="https://www.linkedin.com/in/madhavim/">LinkedIn</a>
+    </div>
+  </div>
+  
+  <!-- Contributor 9 -->
+  <div class="hof-card">
+    <img src="/codershigh/assets/images/Shristi_Choudhary.jpg" alt="Shristi Choudhary" class="hof-avatar">
+    <h3 class="hof-name">Shristi Choudhary</h3>
+    <span class="hof-tag">🌟 Star Contributor</span>
+    <div class="hof-links">
+      <a href="https://www.linkedin.com/in/shristi-choudhary-797a91323/">LinkedIn</a>
+    </div>
+  </div>
+  
 </div>
