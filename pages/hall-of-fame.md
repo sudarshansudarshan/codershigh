@@ -10,7 +10,6 @@ This space is meant to grow into a living record of:
 
 - memorable learner journeys
 - standout contributions in sessions
-- projects and ideas that carried the spirit of Codershigh forward
 - people who helped build, sustain, and deepen the community
 - milestones worth remembering
 
@@ -139,7 +138,7 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
   
   <!-- Contributor 5 -->
   <div class="hof-card">
-    <img src="/codershigh/assets/images/Jatin_Kumar.jpg" alt="Jatin Kumar" class="hof-avatar">
+    <img src="https://media.licdn.com/dms/image/v2/D4D03AQFS6eZBcznULA/profile-displayphoto-scale_400_400/B4DZf0oiziHMAg-/0/1752155961333?e=1775088000&v=beta&t=5T0iVrYg5d3FJb_RmLLoPJ8RO5fjZlAzVwOE_Ipd2cw" alt="Jatin Kumar" class="hof-avatar">
     <h3 class="hof-name">Jatin Kumar</h3>
     <span class="hof-tag">🌟 Star Contributor</span>
     <div class="hof-links">
