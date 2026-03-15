@@ -12,5 +12,6 @@ For now, it stands as a placeholder for:
 - where people went after Codershigh
 - reflections on how the community shaped their learning
 - continuing collaborations and friendships
+- the [Hall of Fame](/codershigh/hall-of-fame/) — celebrating people and contributions that shaped Codershigh
 
 Codershigh is not only about sessions. It is also about continuity.
