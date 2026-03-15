@@ -123,11 +123,11 @@ $$
 4. One obvious way to solve this, is to guess the values :-). Can you get closer to the solution by guessing? Note that there is no solution to this question. You can just reduce the error. Do you see why?
 
 5. In the figure below:
-![fig1](/assets/markov2.png)
+![fig1](/codershigh/assets/markov2.png)
 If 1000 people were to start in one state, what will be the distribution of people eventually?
 
 5. In the figure below:
-![fig2](/assets/markov3.png)
+![fig2](/codershigh/assets/markov3.png)
 If 1000 people were to start in one state, what will be the distribution of people eventually?
 
 # Module 3
