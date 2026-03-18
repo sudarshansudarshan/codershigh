@@ -11,7 +11,7 @@ This is not coaching, not placement theatre, and not speed-solving culture. It i
 
 ## Where to begin
 
-- [Start with Season One](/codershigh/season-one/) — the clearest public entry point into how Codershigh actually works.
+- [Start with Season 01](/codershigh/season-01/) — the clearest public entry point into how Codershigh actually works.
 - [Read the FAQ](/codershigh/faq/) — for what Codershigh is, who it is for, and how sessions work.
 - [Open the Handbook](/codershigh/handbook/) — for session culture, participation norms, and expectations.
 - [View the Hall of Fame](/codershigh/hall-of-fame/) — a living record of memorable learners and standout contributions.
@@ -20,7 +20,7 @@ This is not coaching, not placement theatre, and not speed-solving culture. It i
 
 ## What a session actually looks like
 
-Codershigh is best understood through real examples from Season One.
+Codershigh is best understood through real examples from Season 01.
 
 ### The Greedy Lawyer
 
