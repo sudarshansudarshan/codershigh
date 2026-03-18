@@ -8,10 +8,6 @@ Season 01 is the clearest public doorway into Codershigh.
 
 These sessions show what Codershigh actually feels like: discussion-first, concept-heavy, and unafraid of slowing down until the real question becomes visible.
 
-## Hall of Fame
-
-Discover the brilliant learners and standout contributions from this cohort in our [Season 1 Hall of Fame](/codershigh/hall-of-fame/#season-1).
-
 ## All Sessions
 
 1. **GCD and Fibonacci: Shakespeare of Computing**  
