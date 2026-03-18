@@ -30,7 +30,7 @@ Algorithms, computer science ideas, problem-solving habits, and concept-rich cas
 
 ## How should a new person begin?
 
-The best starting point is [Season 01](/codershigh/season-01/). After that, the [Handbook](/codershigh/handbook/) and [Notes](/codershigh/notes/) help make the culture and materials more concrete.
+The best starting point is [Season 01](/codershigh/season-01/). After that, the [Handbook](/codershigh/handbook/) helps make the culture and materials more concrete.
 
 ## Where do announcements happen?
 
