@@ -26,19 +26,19 @@ Codershigh is best understood through real examples from Season 01.
 
 A revenue-maximization puzzle becomes an exploration of assumptions, alternative framings, and why the obvious answer misses the deeper problem.
 
-[Explore this case](/codershigh/Season1/S01E03/)
+[Explore this case](/codershigh/season-01/S01E02/)
 
 ### The Book Vendor in Modern Malgudi
 
 What looks like a story problem about a vendor turns into a discussion about optimization, constraints, and the gap between textbook mathematics and real-world selling.
 
-[Explore this case](/codershigh/Season1/S01E05/)
+[Explore this case](/codershigh/season-01/S01E18/)
 
 ### The Placement Conundrum
 
 Instead of solving placement problems, the group questions the framing itself: why do we solve these problems the way we do, and what assumptions hide inside interview preparation?
 
-[Explore this case](/codershigh/Season1/S01E02/)
+[Explore this case](/codershigh/season-01/S01E05/)
 
 ## Why Codershigh feels different
 

@@ -28,15 +28,15 @@ These sessions show what Codershigh actually feels like: discussion-first, conce
    [Open session](/codershigh/season-01/S01E08/)
 9. **Bus Trip to Manali**  
    [Open session](/codershigh/season-01/S01E09/)
-10. **Calculate the Devil's Age**  
+10. **Closest Pearls on the Floor**  
     [Open session](/codershigh/season-01/S01E10/)
-11. **Calculate the Unique Vehicles Ever Parked from the Past 10 Years**  
+11. **RTO Blackmoney**  
     [Open session](/codershigh/season-01/S01E11/)
-12. **The Village Marriage Problem**  
+12. **Calculate the Devil's Age**  
     [Open session](/codershigh/season-01/S01E12/)
-13. **Binary Exponentiation**  
+13. **Calculate the Unique Vehicles Ever Parked from the Past 10 Years**  
     [Open session](/codershigh/season-01/S01E13/)
-14. **Closest Pearls on the Floor**  
+14. **The Village Marriage Problem**  
     [Open session](/codershigh/season-01/S01E14/)
 15. **Kth Largest**  
     [Open session](/codershigh/season-01/S01E15/)
@@ -48,6 +48,8 @@ These sessions show what Codershigh actually feels like: discussion-first, conce
     [Open session](/codershigh/season-01/S01E18/)
 19. **King's Illegal Son(s)**  
     [Open session](/codershigh/season-01/S01E19/)
+20. **Binary Exponentiation**  
+    [Open session](/codershigh/season-01/S01E20/)
 
 ## Why start here?
 
