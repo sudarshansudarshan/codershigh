@@ -5,7 +5,6 @@ header_pages:
   - pages/handbook.md
   - pages/alumni.md
   - pages/testimonials.md
-  - pages/notes.md
 
 markdown: kramdown
 title: Codershigh
