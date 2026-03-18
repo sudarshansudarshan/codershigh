@@ -1,16 +1,12 @@
 ---
 layout: page
-title: Season One
-permalink: /season-one/
+title: Season 01
+permalink: /season-01/
 ---
 
-Season One is the clearest public doorway into Codershigh.
+Season 01 is the clearest public doorway into Codershigh.
 
 These sessions show what Codershigh actually feels like: discussion-first, concept-heavy, and unafraid of slowing down until the real question becomes visible.
-
-## Hall of Fame
-
-Discover the brilliant learners and standout contributions from this cohort in our [Season 1 Hall of Fame](/codershigh/hall-of-fame/#season-1).
 
 ## All Sessions
 
@@ -51,6 +47,6 @@ Discover the brilliant learners and standout contributions from this cohort in o
 
 ## Why start here?
 
-Season One makes the spirit of Codershigh visible. It shows how a problem can become a conversation, how a conversation can become a conceptual map, and how a conceptual map can transform the learner.
+Season 01 makes the spirit of Codershigh visible. It shows how a problem can become a conversation, how a conversation can become a conceptual map, and how a conceptual map can transform the learner.
 
 If you want to understand Codershigh through examples rather than abstract description, start here.

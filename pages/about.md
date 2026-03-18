@@ -27,6 +27,6 @@ The result is a different kind of learning experience: slower, more reflective, 
 
 If you are new, start here:
 
-- [Season One](/codershigh/season-one/) — the strongest doorway into the public Codershigh material.
+- [Season 01](/codershigh/season-01/) — the strongest doorway into the public Codershigh material.
 - [FAQ](/codershigh/faq/) — what Codershigh is, who it is for, and how it works.
 - [Handbook](/codershigh/handbook/) — session culture, expectations, and participation norms.

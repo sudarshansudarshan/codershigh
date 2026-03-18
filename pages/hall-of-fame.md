@@ -90,7 +90,7 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
   }
 </style>
 
-<div class="hof-header" id="season-1">
+<div class="hof-header">
   <h1>🏆 Hall of Fame</h1>
   <p>Star Contributors</p>
 </div>
