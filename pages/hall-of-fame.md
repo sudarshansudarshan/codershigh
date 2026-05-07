@@ -188,7 +188,7 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
   
   <!-- Contributor 10 -->
   <div class="hof-card">
-    <img src="/codershigh/assets/images/hall-of-fame/Kushagra_Singh_Tomar.jpg" alt="Kushagra Singh Tomar" class="hof-avatar">
+    <img src="/codershigh/assets/images/hall-of-fame/Kushagra_Singh_Tomar.jpeg" alt="Kushagra Singh Tomar" class="hof-avatar">
     <h3 class="hof-name">Kushagra Singh Tomar</h3>
     <span class="hof-tag">🌟 Star Contributor</span>
     <div class="hof-links">
