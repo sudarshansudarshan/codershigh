@@ -195,8 +195,18 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
       <a target="_blank" href="https://www.linkedin.com/in/kushagra-singh-tomar-94ba55277/">LinkedIn</a>
     </div>
   </div>
-  
+
   <!-- Contributor 11 -->
+  <div class="hof-card">
+    <img src="/codershigh/assets/images/hall-of-fame/Lakshya_Aran.jpg" alt="Kushagra Singh Tomar" class="hof-avatar">
+    <h3 class="hof-name">Lakshya Aran</h3>
+    <span class="hof-tag">🌟 Star Contributor</span>
+    <div class="hof-links">
+      <a target="_blank" href="https://www.linkedin.com/in/lakshya-aran/">LinkedIn</a>
+    </div>
+  </div>
+  
+  <!-- Contributor 12 -->
   <div class="hof-card">
     <img src="/codershigh/assets/images/hall-of-fame/Madhavi_Mullagiri.jpg" alt="Madhavi Mullagiri" class="hof-avatar">
     <h3 class="hof-name">Madhavi Mullagiri</h3>
@@ -206,7 +216,7 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
     </div>
   </div>
   
-  <!-- Contributor 12 -->
+  <!-- Contributor 13 -->
   <div class="hof-card">
     <img src="/codershigh/assets/images/hall-of-fame/Mainak_Mondal.jpg" alt="Mainak Mondal" class="hof-avatar">
     <h3 class="hof-name">Mainak Mondal</h3>
@@ -216,7 +226,7 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
     </div>
   </div>
 
-  <!-- Contributor 13 -->
+  <!-- Contributor 14 -->
   <div class="hof-card">
     <img src="/codershigh/assets/images/hall-of-fame/Maria_Thurkadayil.jpg" alt="Maria Thurkadayil" class="hof-avatar">
     <h3 class="hof-name">Maria Thurkadayil</h3>
@@ -226,7 +236,7 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
     </div>
   </div>
 
-  <!-- Contributor 14 -->
+  <!-- Contributor 15 -->
   <div class="hof-card">
     <img src="/codershigh/assets/images/hall-of-fame/Mayura_Tapkire.jpg" alt="Mayura Tapkire" class="hof-avatar">
     <h3 class="hof-name">Mayura Tapkire</h3>
@@ -236,7 +246,7 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
     </div>
   </div>
 
-  <!-- Contributor 15 -->
+  <!-- Contributor 16 -->
   <div class="hof-card">
     <img src="/codershigh/assets/images/hall-of-fame/Mudit_Agrawal.jpg" alt="Mudit Agrawal" class="hof-avatar">
     <h3 class="hof-name">Mudit Agrawal</h3>
@@ -246,7 +256,7 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
     </div>
   </div>
 
-  <!-- Contributor 16 -->
+  <!-- Contributor 17 -->
   <div class="hof-card">
     <img src="/codershigh/assets/images/hall-of-fame/Prakhar_Gupta.jpg" alt="Prakhar Gupta" class="hof-avatar">
     <h3 class="hof-name">Prakhar Gupta</h3>
@@ -256,7 +266,7 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
     </div>
   </div>
 
-  <!-- Contributor 17 -->
+  <!-- Contributor 18 -->
   <div class="hof-card">
     <img src="/codershigh/assets/images/hall-of-fame/Saniya_Syed.png" alt="Saniya Syed" class="hof-avatar">
     <h3 class="hof-name">Saniya Syed</h3>
@@ -266,7 +276,7 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
     </div>
   </div>
   
-  <!-- Contributor 18 -->
+  <!-- Contributor 19 -->
   <div class="hof-card">
     <img src="/codershigh/assets/images/hall-of-fame/Shristi_Choudhary.jpg" alt="Shristi Choudhary" class="hof-avatar">
     <h3 class="hof-name">Shristi Choudhary</h3>
@@ -276,7 +286,7 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
     </div>
   </div>
 
-  <!-- Contributor 19 -->
+  <!-- Contributor 20 -->
   <div class="hof-card">
     <img src="/codershigh/assets/images/hall-of-fame/Srivinay_Sridhar.jpg" alt="Srivinay Sridhar" class="hof-avatar">
     <h3 class="hof-name">Srivinay Sridhar</h3>
@@ -286,7 +296,7 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
     </div>
   </div>
 
-  <!-- Contributor 20 -->
+  <!-- Contributor 21 -->
   <div class="hof-card">
     <img src="/codershigh/assets/images/hall-of-fame/Yazdan_Irfan.jpg" alt="Yazdan Irfan" class="hof-avatar">
     <h3 class="hof-name">Yazdan Irfan</h3>
@@ -296,7 +306,7 @@ Codershigh is not just a collection of sessions. It is a community shaped by peo
     </div>
   </div>
 
-  <!-- Contributor 21 -->
+  <!-- Contributor 22 -->
   <div class="hof-card">
     <img src="/codershigh/assets/images/hall-of-fame/Zuhair_Khatib.jpg" alt="Zuhair Khatib" class="hof-avatar">
     <h3 class="hof-name">Zuhair Khatib</h3>
