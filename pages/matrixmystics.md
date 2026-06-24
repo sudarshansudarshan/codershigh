@@ -231,3 +231,12 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
 4. What does $$S_1$$ and $$S_4$$ represent?
 
 5. Do you observe there is a bijection from $$S_1  \to S_2$$?
+
+# Module 6
+
+1. Recommender Systems
+
+
+2. Page Ranking
+
+3. Dimensionality Reduction
