@@ -156,7 +156,7 @@ $$S= \{ \beta(2,7,3) | \beta \in \mathbb{R}\} $$
 7. Use Geogebra and plot all the points in the set below.
 $$W= \{\alpha(1,2,1) + \beta(2,7,3) | \alpha,\beta \in \mathbb{R}\} $$
 
-8. In the above set $$W$$ find out all the points $$(x,y,z)$$ satisfying the following: (Use Geogebra)
+8. In the set $$W$$ of previous question. find out all the points $$(x,y,z)$$ satisfying the following: (Use Geogebra)
 $$\begin{bmatrix}w_1 & w_2 & w_3\\
 \end{bmatrix}  \begin{bmatrix} x\\ y \\ z\\ \end{bmatrix}=0 $$
  where $$(w_1,w_2,w_3) \in W$$. Note that $$w_i$$s are real numbers.
@@ -234,8 +234,7 @@ c) Note: $$S$$ is of the dimension $$1$$, but $$T$$ need'nt be of dimension $$2$
 
 # Module 6
 
-1. Recommender Systems
-
+1. Recommender System
 
 2. Page Ranking
 
