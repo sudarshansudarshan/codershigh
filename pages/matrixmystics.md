@@ -192,7 +192,7 @@ $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R
 1. Given the matrix $$M=\begin{bmatrix} 1 & 3 \\ 2 & 6\\ \end{bmatrix}$$. Use Geogebra to plot $$\mathscr{R}$$, $$\mathscr{C}$$ & $$\mathscr{N}$$. what do you observe?<br>
 (i) $$\mathscr{R}=\{\alpha(1,3) + \beta(2,6) | \alpha, \beta\in \mathbb{R}\} $$<br>
 (ii) $$\mathscr{C}=\{\alpha(1,2) + \beta(3,6) | \alpha, \beta\in \mathbb{R}\} $$<br>
-(iii) $$\mathscr{N}=\{(x,y)| x(1,3) + y(2,6) = 0, \forall x,y\in \mathbb{R} \}$$<br>
+(iii) $$\mathscr{N}=\{(x,y)| x(1,2) + y(3,6) = 0, \forall x,y\in \mathbb{R} \}$$<br>
 
 2. Note that $$\mathscr{R}$$ and $$\mathscr{N}$$ are orthogonal.<br>
 
