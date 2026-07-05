@@ -582,7 +582,9 @@ Therefore, LHS can only be a linear combination of the vectors \((3,1,1)\) and \
 
    </details><br>
 
-22.In the figure below:
+22. Suppose you have two containers, each containing **100 mL** of liquid. Initially, **Container 1** contains only **milk**, while **Container 2** contains only **Rooh Afza**. In each cycle, **5% of the liquid** from Container 1 is transferred to Container 2, and the contents of Container 2 are mixed thoroughly. Next, **5% of the liquid** from Container 2 is transferred back to Container 1, and Container 1 is also mixed thoroughly. This process is repeated many times, say **100** or **1000** cycles. What do you observe about the composition of the liquids in the two containers as the number of cycles increases? After a very large number of cycles, how much milk and how much Rooh Afza will be present in each container?
+
+23. In the figure below:
 ![fig1](/codershigh/assets/markov2.png)
 If 1000 people were to start in one state, what will be the distribution of people eventually? Write down a python script to find the convergence.
    <details closed>
