@@ -582,7 +582,7 @@ Therefore, LHS can only be a linear combination of the vectors \((3,1,1)\) and \
 
    </details><br>
 
-22.Suppose you have two containers, each containing **100 mL** of liquid. Initially, **Container 1** contains only **milk**, while **Container 2** contains only **Rooh Afza**. In each cycle, **5% of the liquid** from Container 1 is transferred to Container 2, and the contents of Container 2 are mixed thoroughly. Next, **5% of the liquid** from Container 2 is transferred back to Container 1, and Container 1 is also mixed thoroughly. This process is repeated many times, say **100** or **1000** cycles. What do you observe about the composition of the liquids in the two containers as the number of cycles increases? After a very large number of cycles, how much milk and how much Rooh Afza will be present in each container?
+22.Suppose you have two containers, each containing 100 mL of liquid. Initially, Container 1 contains only milk, while Container 2 contains only Rooh Afza. Now we started trandferring 5% of the liquid from Container 1 is to Container 2, and the contents of Container 2 are mixed thoroughly. Then, 5% of the liquid from Container 2 is transferred back to Container 1, and Container 1 is also mixed thoroughly. This process is repeated many times, say 100 or 1000 cycles. What do you observe about the composition of the liquids in the two containers as the number of cycles increases? After a very large number of cycles, how much milk and how much Rooh Afza will be present in each container?
 
 23.In the figure below:
 ![fig1](/codershigh/assets/markov2.png)
@@ -649,7 +649,7 @@ print(final_distribution, percentage_distribution) -->
    </details><br>
 
 
-23.In the figure below:
+24.In the figure below:
 ![fig2](/codershigh/assets/markov3.png)
 If 1000 people were to start in one state, what will be the distribution of people eventually? Write down a python script to find the convergence.
    <details closed>
@@ -685,7 +685,7 @@ R \\
 ___
 
 
-24.Use Geogebra:
+25.Use Geogebra:
 Draw the vector $$\begin{bmatrix}1 \\
 1 \\
 \end{bmatrix}$$. Find out all those vectors which are perpendicular to this vector.
@@ -699,7 +699,7 @@ $$v = (t, -t),$$ where t is an arbitrary variable. -->
 
    </details><br>
 
-25.Do you observe that we are asking for vectors $$\begin{bmatrix}x \\
+26.Do you observe that we are asking for vectors $$\begin{bmatrix}x \\
 y \\
 \end{bmatrix}$$ such that,
 $$\begin{bmatrix}1 & 1 \\
@@ -713,7 +713,7 @@ $$\begin{bmatrix}1 & 1 \\
 
    </details><br>
 
-26.Use Geogebra and solve the above question with $$\begin{bmatrix}   1 \\
+27.Use Geogebra and solve the above question with $$\begin{bmatrix}   1 \\
 1 \\
 \end{bmatrix}$$ replaced by $$\begin{bmatrix}a \\
 b \\
@@ -727,7 +727,7 @@ This will only change the corresponding slope, i.e., the vectors will lie on the
 
    </details><br>
 
-27.What is $$(x,y,z)$$ satisfying the following equation? (Use Geogebra)
+28.What is $$(x,y,z)$$ satisfying the following equation? (Use Geogebra)
 $$\begin{bmatrix}1 & 2 & 3\\
 \end{bmatrix}  \begin{bmatrix} x\\ y \\ z\\ \end{bmatrix}=0 $$
    <details closed>
@@ -758,7 +758,7 @@ We observe that this represents an equation of a plane and it contains the colle
 
    </details><br>
 
-28.Use Geogebra and plot all the points in the set below.
+29.Use Geogebra and plot all the points in the set below.
 $$T= \{ \alpha(1,2,1) | \alpha \in \mathbb{R}\} $$
    <details closed>
    <summary>Sol.</summary>
@@ -769,7 +769,7 @@ $$T= \{ \alpha(1,2,1) | \alpha \in \mathbb{R}\} $$
 
    </details><br>
 
-29.Use Geogebra and plot all the points in the set below.
+30.Use Geogebra and plot all the points in the set below.
 $$S= \{ \beta(2,7,3) | \beta \in \mathbb{R}\} $$
    <details closed>
    <summary>Sol.</summary>
@@ -778,7 +778,7 @@ $$S= \{ \beta(2,7,3) | \beta \in \mathbb{R}\} $$
 
    </details><br>
 
-30.Use Geogebra and plot all the points in the set below.
+31.Use Geogebra and plot all the points in the set below.
 $$W= \{\alpha(1,2,1) + \beta(2,7,3) | \alpha,\beta \in \mathbb{R}\} $$
    <details closed>
    <summary>Sol.</summary>
@@ -787,7 +787,7 @@ $$W= \{\alpha(1,2,1) + \beta(2,7,3) | \alpha,\beta \in \mathbb{R}\} $$
 
    </details><br>
 
-31.In the above set $$W$$ find out all the points $$(x,y,z)$$ satisfying the following: (Use Geogebra)
+32.In the above set $$W$$ find out all the points $$(x,y,z)$$ satisfying the following: (Use Geogebra)
 $$\begin{bmatrix}w_1 & w_2 & w_3\\
 \end{bmatrix}  \begin{bmatrix} x\\ y \\ z\\ \end{bmatrix}=0 $$
  where $$(w_1,w_2,w_3) \in W$$. Note that $$w_i$$s are real numbers.
@@ -796,7 +796,7 @@ $$\begin{bmatrix}w_1 & w_2 & w_3\\
 
    </details><br>
 
-32.Given the matrix $$A=\begin{bmatrix}1 & 2 & 3\\ 4 & 5 &6\\ 7 & 8 & 9\\ \end{bmatrix}$$, find out all the possible $$(x,y,z)$$ such that:
+33.Given the matrix $$A=\begin{bmatrix}1 & 2 & 3\\ 4 & 5 &6\\ 7 & 8 & 9\\ \end{bmatrix}$$, find out all the possible $$(x,y,z)$$ such that:
 $$ \begin{bmatrix}1 & 2 & 3\\ 4 & 5 &6\\ 7 & 8 & 9\\ \end{bmatrix} \begin{bmatrix} x\\ y\\ z\\ \end{bmatrix}=0$$
 Observe carefully, what has this question got to do with previous five questions in this module
    <details closed>
@@ -825,7 +825,7 @@ This means all points \((x, y, z)\) lie on the line parametrized by \((t, -2t, t
 
    </details>  <br>
 
-33.Given the matrix $$A=\begin{bmatrix}1 & 2 & 3\\ 4 & 5 &6\\ 7 & 8 & 9\\ \end{bmatrix}$$ what does the following three sets represent?<br>
+34.Given the matrix $$A=\begin{bmatrix}1 & 2 & 3\\ 4 & 5 &6\\ 7 & 8 & 9\\ \end{bmatrix}$$ what does the following three sets represent?<br>
 (i) $$\mathscr{R}=\{\alpha(1,2,3) + \beta(4,5,6) + \gamma(7,8,9) |\alpha, \beta, \gamma\in \mathbb{R}\} $$<br>
 (ii) $$C=\{\alpha(1,4,7) + \beta(2,5,8) + \gamma(3,6,9) | \alpha, \beta, \gamma \in \mathbb{R}\}$$<br>
 (iii) $$N=\{(x,y,z)|x(1,4,7) + y(2,5,8) + z(3,6,9) = 0 \}$$<br>
@@ -835,7 +835,7 @@ This means all points \((x, y, z)\) lie on the line parametrized by \((t, -2t, t
 
    </details><br>
 
-34.Did you observe that every vector of $$\mathscr{R}$$ is perpendicular to every vector of $$N$$?
+35.Did you observe that every vector of $$\mathscr{R}$$ is perpendicular to every vector of $$N$$?
    <details closed>
    <summary>Sol.</summary>
 
@@ -843,7 +843,7 @@ This means all points \((x, y, z)\) lie on the line parametrized by \((t, -2t, t
 
    </details><br>
 
-35.Consider the matrix $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}$$. Draw the line $$2y+x=4$$. Seeing the matrix $$B$$ as a function $$B:\mathbb{R^2}\mapsto \mathbb{R^2}$$,<br> where does $$B$$ takes the line  $$2y+x=4$$?<br>
+36.Consider the matrix $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}$$. Draw the line $$2y+x=4$$. Seeing the matrix $$B$$ as a function $$B:\mathbb{R^2}\mapsto \mathbb{R^2}$$,<br> where does $$B$$ takes the line  $$2y+x=4$$?<br>
 Where does it take:<br>
 i)$$2y+x=10$$<br>
 ii)$$2y+x=62$$<br>
@@ -879,7 +879,7 @@ iii)$$2y+x=1800$$
 
    </details><br>
 
-35(a).In general $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R^2}$$, where does this function take $$2y+x=k$$?(where $$k$$ is a constant)
+36(a).In general $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R^2}$$, where does this function take $$2y+x=k$$?(where $$k$$ is a constant)
    <details closed>
    <summary>Sol.</summary>
 
@@ -887,7 +887,7 @@ iii)$$2y+x=1800$$
 
    </details><br>
 
-36.Consider a matrix $$A=\begin{bmatrix} 1 & 4 \\ 2 & 3\\ \end{bmatrix}$$ and a vector $v$ =  $$\begin{bmatrix} 1 \\ 1\\ \end{bmatrix}$$ to what is it transformed?   
+37.Consider a matrix $$A=\begin{bmatrix} 1 & 4 \\ 2 & 3\\ \end{bmatrix}$$ and a vector $v$ =  $$\begin{bmatrix} 1 \\ 1\\ \end{bmatrix}$$ to what is it transformed?   
 36(a).Is it rotated?   
 36(b).Is the magnitude preserved?    
 36(c).What is the ratio of magnitude of $$Av$$ to $$v$$?
@@ -916,7 +916,7 @@ iii)$$2y+x=1800$$
 
    </details><br>
 
-37.Given $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R^2}$$. What is the range of this function?
+38.Given $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R^2}$$. What is the range of this function?
    <details closed>
    <summary>Sol.</summary>
 <!-- 
@@ -924,7 +924,7 @@ iii)$$2y+x=1800$$
 
    </details><br>
 
-38.You have achieved the required wisdom if you have realized that: <br>
+39.You have achieved the required wisdom if you have realized that: <br>
 $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R^2}$$. <br>
 " $$B$$ collapses a dimension ".<br>
    <details closed>
@@ -940,7 +940,7 @@ $$B=\begin{bmatrix} 1 & 2 \\ 2 & 4\\ \end{bmatrix}:\mathbb{R^2}\mapsto \mathbb{R
 
 ---
 
-39.Given the matrix $$M=\begin{bmatrix} 1 & 3 \\ 2 & 6\\ \end{bmatrix}$$. Use Geogebra to plot $$\mathscr{R}$$, $$\mathscr{C}$$ & $$\mathscr{N}$$. what do you observe?<br>
+40.Given the matrix $$M=\begin{bmatrix} 1 & 3 \\ 2 & 6\\ \end{bmatrix}$$. Use Geogebra to plot $$\mathscr{R}$$, $$\mathscr{C}$$ & $$\mathscr{N}$$. what do you observe?<br>
 (i) $$\mathscr{R}=\{\alpha(1,3) + \beta(2,6) | \alpha, \beta\in \mathbb{R}\} $$<br>
 (ii) $$\mathscr{C}=\{\alpha(1,2) + \beta(3,6) | \alpha, \beta\in \mathbb{R}\} $$<br>
 (iii) $$\mathscr{N}=\{(x,y)| x(1,3) + y(2,6) = 0, \forall x,y\in \mathbb{R} \}$$<br>
@@ -955,7 +955,7 @@ This observation clarifies the visual representation of the relations between ro
 
    </details><br>
 
-40.Note that $$\mathscr{C}$$ and $$\mathscr{N}$$ are orthogonal.<br>
+41.Note that $$\mathscr{C}$$ and $$\mathscr{N}$$ are orthogonal.<br>
    <details closed>
    <summary>Sol.</summary>
 
@@ -965,7 +965,7 @@ When we plot the straight line on the graph with the function using origin as th
 
    </details><br>
 
-41.What is  the null-space of $$M=\begin{bmatrix} 1 & 3 \\ 2 & 6\\ \end{bmatrix}$$ & the null-space of $$M^T$$?<br>
+42.What is  the null-space of $$M=\begin{bmatrix} 1 & 3 \\ 2 & 6\\ \end{bmatrix}$$ & the null-space of $$M^T$$?<br>
    <details closed>
    <summary>Sol.</summary>
 
@@ -993,7 +993,7 @@ Similar to the previous example, the solution for the null space for N, the tran
 
    </details><br>
 
-42.Do you observe that $$C(M)$$ &#x22A5; $$N(M^T)$$ , &nbsp; $$R(M)$$ &#x22A5; $$N(M)$$ ?<br>
+43.Do you observe that $$C(M)$$ &#x22A5; $$N(M^T)$$ , &nbsp; $$R(M)$$ &#x22A5; $$N(M)$$ ?<br>
    <details closed>
    <summary>Sol.</summary>
 <!-- 
@@ -1001,7 +1001,7 @@ Similar to the previous example, the solution for the null space for N, the tran
 
    </details><br>
 
-43.Consider $$A=\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \\ \end{bmatrix}$$. What is $$N(A)$$, $$C(A)$$, $$R(A)$$, $$N(A^T)$$.<br>
+44.Consider $$A=\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \\ \end{bmatrix}$$. What is $$N(A)$$, $$C(A)$$, $$R(A)$$, $$N(A^T)$$.<br>
    <details closed>
    <summary>Sol.</summary>
 <!-- 
@@ -1043,7 +1043,7 @@ $$R(A) = \{a(1,2,3) + b(4,5,6) + c(7,8,9) : a, b, c \text{ belong to \} R}$$ -->
 
    </details><br>
 
-44.Consider a 4x4 matrix $$M$$: $$\mathbb{R^4}\mapsto \mathbb{R^4}$$ whose range is<br>
+45.Consider a 4x4 matrix $$M$$: $$\mathbb{R^4}\mapsto \mathbb{R^4}$$ whose range is<br>
 a) $$4-Dimension$$<br>
 b) $$3-Dimension$$ <br>
 c) $$2-Dimension$$ <br>
@@ -1067,7 +1067,7 @@ Note that any other example which satisfies the given condition is also a correc
 
    </details><br>
 
-45.Consider $$A : \mathbb{R^{3}} \to \mathbb{R^{3}} $$<br>
+46.Consider $$A : \mathbb{R^{3}} \to \mathbb{R^{3}} $$<br>
 a) Show that if the range contains a point $$(a,b,c)$$, then it should contain the entire set $$S$$, defined by:
 $$S= \{\alpha(a, b,c)| \alpha \in \mathbb{R}\}$$. <br>
 b) Show that if the range contains the points $$(a,b,c)$$ and $$(d,e,f)$$, then the range contains the entire set $$T$$ defined by:
@@ -1089,7 +1089,7 @@ But, since A is a linear transformation; for any scalar a, $$A(ax) = a(a,b,c),$$
 
 ---
 
-46.Give an example of two  $$2-dim$$ subspaces in $$\mathbb{R^{3}}$$. Let us call it $$S_1, S_2$$.
+47.Give an example of two  $$2-dim$$ subspaces in $$\mathbb{R^{3}}$$. Let us call it $$S_1, S_2$$.
    <details closed>
    <summary>Sol.</summary>
 
@@ -1102,7 +1102,7 @@ $$S_2 = \{(x,0,z) : x,z \text{ belong to } R\}$$ -->
    </details><br>
 
 
-47.Let $$S_3$$ be all those vectors perpendicular to $$S_1$$. $$S_4$$ be that of $$S_2$$.
+48.Let $$S_3$$ be all those vectors perpendicular to $$S_1$$. $$S_4$$ be that of $$S_2$$.
    <details closed>
    <summary>Sol.</summary>
 
@@ -1117,7 +1117,7 @@ $$S_4 = \{x : x \text{ lies along the y - axis}\}$$ -->
    </details><br>
 
 
-48.Find a matrix $$M$$ whose Null-Space is $$S_3$$. column space is $$S_2$$.
+49.Find a matrix $$M$$ whose Null-Space is $$S_3$$. column space is $$S_2$$.
    <details closed>
    <summary>Sol.</summary>
 <!-- 
@@ -1128,7 +1128,7 @@ As we know that row space and null space of a matrix are orthogonal to each othe
    </details><br>
 
 
-49.What does $$S_1$$ and $$S_4$$ represent?
+50.What does $$S_1$$ and $$S_4$$ represent?
    <details closed>
    <summary>Sol.</summary>
 
@@ -1140,7 +1140,7 @@ Specifically, it signifies any plane passing through the origin in 3 - dimension
 
    </details><br>
 
-50.Do you observe there is a bijection from $$S_1  \to S_2$$?
+51.Do you observe there is a bijection from $$S_1  \to S_2$$?
    <details closed>
    <summary>Sol.</summary>
 
@@ -1155,7 +1155,7 @@ Specifically, it signifies any plane passing through the origin in 3 - dimension
 # Module F
 
 
-51.Imagine a situation of war in 1800's.Country A wants to send a letter to Country B such that their enemy country can't understand the message.How can you help the country A in this situation?
+52.Imagine a situation of war in 1800's.Country A wants to send a letter to Country B such that their enemy country can't understand the message.How can you help the country A in this situation?
    <details closed>
    <summary>Sol.</summary>
 
@@ -1167,7 +1167,7 @@ In the Caesar cipher, each letter in the plaintext is shifted by a fixed number 
 Where \( \mod 26 \) ensures that the result wraps around the alphabet. For example, if \( n = 3 \) and \( P = 1 \) (representing 'A'), the encrypted letter would be \( E(1) = (1 + 3) \mod 26 = 4 \), which corresponds to 'D'.
 
    </details><br>
-52.How about shifting the alphabets by 1 letter each?What is the problem here?
+53.How about shifting the alphabets by 1 letter each?What is the problem here?
    <details closed>
    <summary>Sol.</summary>
 
@@ -1176,7 +1176,7 @@ Where \( \mod 26 \) ensures that the result wraps around the alphabet. For examp
 Since there are only 25 possible keys (each shift value from 1 to 25), an attacker can easily perform a brute-force attack by trying all possible keys to decrypt the message. This means that the encrypted message can be deciphered through only 25 trials, making it highly vulnerable to cryptanalysis.
 
    </details><br>
-53.Try encoding the word "VICHARANASHALA" using the above method (But shift 4 letters this time) 
+54.Try encoding the word "VICHARANASHALA" using the above method (But shift 4 letters this time) 
    <details closed>
    <summary>Sol.</summary>
 
@@ -1200,7 +1200,7 @@ Since there are only 25 possible keys (each shift value from 1 to 25), an attack
 So, "VICHARANASHALA" would be encoded as "ZMGLEREVREWEP".
 
    </details><br>
-54.What if you have only the encoded message? How will you get to the original message?
+55.What if you have only the encoded message? How will you get to the original message?
    <details closed>
    <summary>Sol.</summary>
 
@@ -1211,7 +1211,7 @@ One common approach is frequency analysis, which relies on the fact that certain
 Another method involves trying all possible shift values (from 1 to 25) and examining the decrypted text for meaningful words or patterns. This brute-force approach would involve decoding the message 25 times with different shift values until the original message is revealed.
 
    </details><br>
-55.What if we substitute each letter by some other letter using a pre- defined mapping (eg.a->t,b->f,c->y,...)?How many trails do we have to do so that we can reach the secret message if we only have the encoded text and not the mapping ?
+56.What if we substitute each letter by some other letter using a pre- defined mapping (eg.a->t,b->f,c->y,...)?How many trails do we have to do so that we can reach the secret message if we only have the encoded text and not the mapping ?
    <details closed>
    <summary>Sol.</summary>
 
@@ -1224,7 +1224,7 @@ Therefore, without knowing the mapping, we would need to try each possible permu
 In summary, if we only have the encoded text and not the mapping used in a substitution cipher, it is practically infeasible to decipher the secret message by trying all possible mappings.
 
    </details><br>
-56.Is there any efficient approach for the second part of the 55th question?
+57.Is there any efficient approach for the second part of the 55th question?
    <details closed>
    <summary>Sol.</summary>
 
@@ -1241,7 +1241,7 @@ Here's how frequency analysis works:
 5. Once a few letters are deciphered, use context and word patterns to further decrypt the message.
 
    </details><br>
-57.What do you think is the frequency of occurence of various letters in a sample English text? Which letter do you expect to be the most frequent ?
+58.What do you think is the frequency of occurence of various letters in a sample English text? Which letter do you expect to be the most frequent ?
    <details closed>
    <summary>Sol.</summary>
 
@@ -1249,7 +1249,7 @@ Here's how frequency analysis works:
 These frequencies can vary slightly depending on the specific text and context, but they provide a general guideline for the relative occurrence of letters in English text.
 
    </details><br>
-58.Assuming that an English text follows a particular order of frequency,can you solve the 56th question?
+59.Assuming that an English text follows a particular order of frequency,can you solve the 56th question?
    <details closed>
    <summary>Sol.</summary>
 
@@ -1262,7 +1262,7 @@ Once we determine the mapping for this letter, we can continue deciphering the r
 While frequency analysis provides a powerful tool for decrypting substitution ciphers, it may still require some manual effort and linguistic knowledge, especially for longer messages or messages with less predictable patterns. However, by leveraging the knowledge of letter frequency in English text, we can significantly reduce the number of trials needed to decrypt the message compared to a brute-force approach.
 
    </details><br>
-59.Suppose we take a subset from a huge text i.e $$k^{th}$$, $$2k^{th}$$, $$3k^{th}$$... elements.Will they also follow the same pattern observed in the previous question?
+60.Suppose we take a subset from a huge text i.e $$k^{th}$$, $$2k^{th}$$, $$3k^{th}$$... elements.Will they also follow the same pattern observed in the previous question?
    <details closed>
    <summary>Sol.</summary>
 
@@ -1273,7 +1273,7 @@ This is because the frequency distribution of letters in English text is relativ
 Of course, the specific frequencies may vary slightly depending on the particular text and context, but the overall pattern of letter frequency should remain consistent. This consistency is what allows frequency analysis to be an effective technique for decrypting substitution ciphers, even when working with subsets of text.
 
    </details><br>
-60.Assume you arrange two meaningful english text strings in front of each other. What is the expected number of collisions in the letters? Call it "collision frequency".
+61.Assume you arrange two meaningful english text strings in front of each other. What is the expected number of collisions in the letters? Call it "collision frequency".
    <details closed>
    <summary>Sol.</summary>
 
@@ -1291,7 +1291,7 @@ Of course, the specific frequencies may vary slightly depending on the particula
 Total Number of Collisions = N * Collision frequency.
 
    </details><br>
-61.Assume that in the previous question ,we apply the ceaser cypher(the one discussed in the first few questions), on both the strings, and alphabet by 5 letters then will the collision frequency remain the same?What if we shift first string by 3 letters and second by 5? 
+62.Assume that in the previous question ,we apply the ceaser cypher(the one discussed in the first few questions), on both the strings, and alphabet by 5 letters then will the collision frequency remain the same?What if we shift first string by 3 letters and second by 5? 
    <details closed>
    <summary>Sol.</summary>
 
@@ -1300,7 +1300,7 @@ Total Number of Collisions = N * Collision frequency.
 However, if we shift the first string by a different amount than the second string, it will affect the collision frequency. This is because the relative positions of characters within each string will change, leading to a different distribution of characters and hence a different collision frequency.
 
    </details><br>
-62.Suggest any such method using which we can be confident that the encoded text can't be decoded by the enemy. (We may discuss it in further classes)
+63.Suggest any such method using which we can be confident that the encoded text can't be decoded by the enemy. (We may discuss it in further classes)
    <details closed>
    <summary>Sol.</summary>
 
@@ -1312,7 +1312,7 @@ However, if we shift the first string by a different amount than the second stri
 # Module G  
 ---  
    
-63.A dart is thrown at random onto a board that has the shape of a circle as shown below. Calculate the probability that the dart will hit the shaded region.  
+64.A dart is thrown at random onto a board that has the shape of a circle as shown below. Calculate the probability that the dart will hit the shaded region.  
 ![fig3](/aicamp/assets/markov4.jpg)  
    <details closed>
    <summary>Sol.</summary>
@@ -1352,7 +1352,7 @@ Thus, the probability of a dart hitting the shaded region is \( \frac{3}{4} \) o
 
    </details><br>
 
-64.Let a pair of dice be thrown and the random variable X be the sum of the numbers that appear on the two dice. Find the mean or expectation of X.  
+65.Let a pair of dice be thrown and the random variable X be the sum of the numbers that appear on the two dice. Find the mean or expectation of X.  
 <details closed>
    <summary>Sol.</summary>
 
@@ -1405,7 +1405,7 @@ Thus, the probability of a dart hitting the shaded region is \( \frac{3}{4} \) o
   So, the mean or expectation of \( X \) is approximately \( 7 \).
 
    </details><br>
-65.A factory produces items, and each item is independently defective with probability
+66.A factory produces items, and each item is independently defective with probability
 0.2. If 100 items are produced in a day, what is the expected number of defective items?  
 <details closed>
    <summary>Sol.</summary>
@@ -1426,7 +1426,7 @@ Substituting the given values:
 Thus, the expected number of defective items produced in a day is 20.
 
    </details><br>
-66.A point is chosen at random inside a sphere of radius R. What is the probability that this point is closer to the center of the sphere than to its surface?  
+67.A point is chosen at random inside a sphere of radius R. What is the probability that this point is closer to the center of the sphere than to its surface?  
 <details closed>
    <summary>Sol.</summary>
 
@@ -1452,12 +1452,12 @@ The probability \( P \) that a randomly chosen point inside the sphere is closer
 Thus, the probability that a randomly chosen point inside the sphere is closer to the center than to its surface is \( \frac{1}{8} \).
 
    </details><br>
-67.A point is randomly chosen inside a cube with side length 𝑎. What is the probability that the point is closer to one of the vertices than to the center of the cube?  
+68.A point is randomly chosen inside a cube with side length 𝑎. What is the probability that the point is closer to one of the vertices than to the center of the cube?  
 <details closed>
    <summary>Sol.</summary>
 
    </details><br>
-68.Imagine you have a number line that ranges from -1 to 1. You randomly pick k points on this line. What is the expected distance of the closest point to the midpoint of the line?
+69.Imagine you have a number line that ranges from -1 to 1. You randomly pick k points on this line. What is the expected distance of the closest point to the midpoint of the line?
 <details closed>
    <summary>Sol.</summary>
 
