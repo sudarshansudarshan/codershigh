@@ -83,7 +83,46 @@ isnudpiear
 
 18\. Fibonacci Sequence : Write a program that prints the first n numbers in Fibonacci numbers (1 point).
 
-19\. Print Star Pattern: Write a program that takes a number n from the user and prints a right-angled triangle pattern with stars of n rows (1 point) .
+19 (a)\. Print Star Pattern: Write a program that takes a number n from the user and prints a right-angled triangle pattern with stars of n rows (1 point) .
+```
+*
+**
+***
+****
+*****
+```
+
+19 (b)\. Right-Aligned Triangle: Write a program that takes a number n from the user and prints a right-angled triangle pattern with stars of n rows, aligned to the right-hand side (1 Point).
+```
+    *
+   **
+  ***
+ ****
+*****
+```
+
+19 (c)\. Diagonal Star Line: Write a program that takes a number n from the user and prints a diagonal line of stars of n rows, where each row contains exactly one star shifting right by one space per line (1 Point).
+```
+*
+ *
+  *
+   *
+    *
+```
+
+19 (d)\. Sideways V-Shape: Write a program that prints a symmetric, sideways V-shaped pattern using stars. The height of the pattern H must be an odd number to ensure a single, clean turning point at the left margin (1 point).
+```
+    *
+   *
+  *
+ *
+*
+ *
+  *
+   *
+    *
+```
+
 
 20\. Write a piece of code which does exactly as specified in [this video](https://www.youtube.com/watch?v=JA_70M-ma-k) (10 points). 
 
