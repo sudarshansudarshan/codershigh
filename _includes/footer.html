@@ -1,35 +1,59 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
+<footer class="site-footer">
   <div class="wrapper">
+    <div class="footer-grid">
+      <div class="footer-brand-col">
+        <div class="footer-brand">
+          <span class="brand-icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+          </span>
+          <span class="brand-title">Codershigh</span>
+        </div>
+        <p class="footer-tagline">
+          A slow-thinking intellectual community where algorithms, mathematics, and ideas are explored through collective reasoning.
+        </p>
+        <p class="footer-motto"><em>"Discovery Before Depth"</em></p>
+      </div>
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+      <div class="footer-links-col">
+        <h4 class="footer-col-heading">Navigation</h4>
+        <ul class="footer-link-list">
+          <li><a href="{{ "/season-01/" | relative_url }}">Season 01</a></li>
+          <li><a href="{{ "/handbook/" | relative_url }}">Handbook</a></li>
+          <li><a href="{{ "/faq/" | relative_url }}">FAQ</a></li>
+          <li><a href="{{ "/hall-of-fame/" | relative_url }}">Hall of Fame</a></li>
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+      <div class="footer-links-col">
+        <h4 class="footer-col-heading">Tracks</h4>
+        <ul class="footer-link-list">
+          <li><a href="{{ "/oceanverse/" | relative_url }}">Oceanverse</a></li>
+          <li><a href="{{ "/matrixmystics/" | relative_url }}">Matrix Mystics</a></li>
+          <li><a href="{{ "/Programming/" | relative_url }}">Programming Track</a></li>
+          <li><a href="{{ "/podcast/" | relative_url }}">Podcasts & Essays</a></li>
+        </ul>
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+      <div class="footer-links-col">
+        <h4 class="footer-col-heading">Community</h4>
+        <ul class="footer-link-list">
+          <li><a href="https://github.com/sudarshansudarshan/codershigh" target="_blank" rel="noopener">GitHub</a></li>
+          {%- if site.twitter_username -%}
+          <li><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener">Twitter / X</a></li>
+          {%- endif -%}
+          {%- if site.email -%}
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
+          <li><a href="{{ "/about/" | relative_url }}">About Initiative</a></li>
+        </ul>
       </div>
     </div>
 
+    <div class="footer-bottom">
+      <p>© {{ 'now' | date: "%Y" }} Codershigh Collective. Built with slow thinking and open collaboration.</p>
+    </div>
   </div>
-
 </footer>

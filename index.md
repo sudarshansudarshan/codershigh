@@ -3,54 +3,216 @@ layout: home
 title: Home
 ---
 
-## Codershigh
+<section class="hero">
+  <div class="hero-pill">
+    <span class="pill-dot"></span>
+    <span>Slow-Thinking Intellectual Community</span>
+  </div>
+  <h1 class="hero-title">Where algorithms meet deep collaborative intuition.</h1>
+  <p class="hero-description">
+    Codershigh is built on the conviction that deep understanding takes time. We step away from speed-solving culture and placement theatre to explore computer science, mathematics, and ideas from first principles.
+  </p>
+  <div class="hero-actions">
+    <a href="{{ "/season-01/" | relative_url }}" class="btn btn-primary">
+      <span>Explore Season 01</span>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+    <a href="{{ "/handbook/" | relative_url }}" class="btn btn-secondary">Read Handbook</a>
+    <a href="{{ "/hall-of-fame/" | relative_url }}" class="btn btn-outline">Hall of Fame 🌟</a>
+  </div>
+</section>
 
-**Codershigh** is a slow-thinking intellectual community where algorithms, computer science, and mathematical ideas are explored through discussion, discomfort, intuition, and collective reasoning.
+<div class="section-header">
+  <span class="section-tag">Curriculum & Pathways</span>
+  <h2 class="section-title">Where to Begin</h2>
+  <p class="section-subtitle">Structured tracks designed to cultivate clarity, intuition, and intellectual rigor.</p>
+</div>
 
-This is not coaching, not placement theatre, and not speed-solving culture. It is a place for people who would rather think deeply than finish quickly.
+<div class="card-grid">
+  <a href="{{ "/season-01/" | relative_url }}" class="card">
+    <div class="card-top">
+      <span class="card-badge badge-indigo">Core Track</span>
+      <span class="card-icon">⚡</span>
+    </div>
+    <h3 class="card-title">
+      Season 01 Episodes
+      <span class="card-arrow">→</span>
+    </h3>
+    <p class="card-desc">
+      20 structured problem explorations tackling profound algorithmic concepts, inquiries, and empirical coding assignments.
+    </p>
+  </a>
 
-## Where to begin
+  <a href="{{ "/oceanverse/" | relative_url }}" class="card">
+    <div class="card-top">
+      <span class="card-badge badge-emerald">Visual Math</span>
+      <span class="card-icon">📐</span>
+    </div>
+    <h3 class="card-title">
+      Oceanverse (GeoGebra)
+      <span class="card-arrow">→</span>
+    </h3>
+    <p class="card-desc">
+      Hands-on geometric and visual mathematics. Solve problems strictly with GeoGebra to build spatial mathematical intuition.
+    </p>
+  </a>
 
-- [Start with Season 01](/codershigh/season-01/) — the clearest public entry point into how Codershigh actually works.
-- [Read the FAQ](/codershigh/faq/) — for what Codershigh is, who it is for, and how sessions work.
-- [Open the Handbook](/codershigh/handbook/) — for session culture, participation norms, and expectations.
-- [View the Hall of Fame](/codershigh/hall-of-fame/) — a living record of memorable learners and standout contributions.
-- [Podcast](/codershigh/podcast/) — reflective essays and long-form thinking emerging from serious conversations on learning, attention, and pedagogy.
+  <a href="{{ "/matrixmystics/" | relative_url }}" class="card">
+    <div class="card-top">
+      <span class="card-badge badge-indigo">Linear Algebra</span>
+      <span class="card-icon">🔢</span>
+    </div>
+    <h3 class="card-title">
+      Matrix Mystics
+      <span class="card-arrow">→</span>
+    </h3>
+    <p class="card-desc">
+      Linear algebra from the ground up: vectors, linear systems, null spaces, and matrix transformations through tangible puzzles.
+    </p>
+  </a>
 
+  <a href="{{ "/Programming/" | relative_url }}" class="card">
+    <div class="card-top">
+      <span class="card-badge badge-amber">Code Track</span>
+      <span class="card-icon">💻</span>
+    </div>
+    <h3 class="card-title">
+      Programming Track
+      <span class="card-arrow">→</span>
+    </h3>
+    <p class="card-desc">
+      Foundational Python assignments, sequence generation, pattern questions, and algorithmic fundamentals.
+    </p>
+  </a>
 
-## What a session actually looks like
+  <a href="{{ "/faq/" | relative_url }}" class="card">
+    <div class="card-top">
+      <span class="card-badge">Guide</span>
+      <span class="card-icon">❓</span>
+    </div>
+    <h3 class="card-title">
+      FAQ & Logistics
+      <span class="card-arrow">→</span>
+    </h3>
+    <p class="card-desc">
+      Understand what Codershigh is, who it is for, how sessions work, and why we deliberately avoid the placement grind.
+    </p>
+  </a>
 
-Codershigh is best understood through real examples from Season 01.
+  <a href="{{ "/podcast/" | relative_url }}" class="card">
+    <div class="card-top">
+      <span class="card-badge">Essays</span>
+      <span class="card-icon">🎙️</span>
+    </div>
+    <h3 class="card-title">
+      Podcasts & Essays
+      <span class="card-arrow">→</span>
+    </h3>
+    <p class="card-desc">
+      Long-form reflections on learner attention, pedagogy, intellectual curiosity, and education for livelihood vs. life.
+    </p>
+  </a>
+</div>
 
-### The Greedy Lawyer
+<div class="section-header">
+  <span class="section-tag">Case Studies</span>
+  <h2 class="section-title">What a Session Actually Looks Like</h2>
+  <p class="section-subtitle">Real problem explorations that unpack assumptions and discover deeper structures.</p>
+</div>
 
-A revenue-maximization puzzle becomes an exploration of assumptions, alternative framings, and why the obvious answer misses the deeper problem.
+<div class="card-grid">
+  <a href="{{ "/season-01/S01E02/" | relative_url }}" class="card">
+    <div class="card-top">
+      <span class="card-badge badge-indigo">S01E02</span>
+      <span class="card-icon">⚖️</span>
+    </div>
+    <h3 class="card-title">
+      The Greedy Lawyer
+      <span class="card-arrow">→</span>
+    </h3>
+    <p class="card-desc">
+      A revenue-maximization puzzle becomes an inquiry into hidden assumptions, alternative framings, and why obvious answers miss deeper truths.
+    </p>
+  </a>
 
-[Explore this case](/codershigh/season-01/S01E02/)
+  <a href="{{ "/season-01/S01E18/" | relative_url }}" class="card">
+    <div class="card-top">
+      <span class="card-badge badge-emerald">S01E18</span>
+      <span class="card-icon">📚</span>
+    </div>
+    <h3 class="card-title">
+      The Book Vendor in Modern Malgudi
+      <span class="card-arrow">→</span>
+    </h3>
+    <p class="card-desc">
+      A story problem about an independent vendor turns into an exploration of optimization, inventory constraints, and real-world math.
+    </p>
+  </a>
 
-### The Book Vendor in Modern Malgudi
+  <a href="{{ "/season-01/S01E05/" | relative_url }}" class="card">
+    <div class="card-top">
+      <span class="card-badge badge-amber">S01E05</span>
+      <span class="card-icon">🎯</span>
+    </div>
+    <h3 class="card-title">
+      The Placement Conundrum
+      <span class="card-arrow">→</span>
+    </h3>
+    <p class="card-desc">
+      Instead of memorizing interview solutions, the group questions the framing: why do we solve problems this way, and what is being ignored?
+    </p>
+  </a>
+</div>
 
-What looks like a story problem about a vendor turns into a discussion about optimization, constraints, and the gap between textbook mathematics and real-world selling.
+<div class="section-header">
+  <span class="section-tag">The Philosophy</span>
+  <h2 class="section-title">Why Codershigh Feels Different</h2>
+  <p class="section-subtitle">Three pillars that define how we learn and think together.</p>
+</div>
 
-[Explore this case](/codershigh/season-01/S01E18/)
+<div class="features-grid">
+  <div class="feature-item">
+    <div class="feature-icon-wrapper">🔍</div>
+    <h3 class="feature-title">We stay with the question</h3>
+    <p class="feature-text">
+      A session may spend significant time simply unpacking what a problem is actually asking, exposing hidden boundaries before writing a line of code.
+    </p>
+  </div>
 
-### The Placement Conundrum
+  <div class="feature-item">
+    <div class="feature-icon-wrapper">👥</div>
+    <h3 class="feature-title">We think together</h3>
+    <p class="feature-text">
+      The method is collective reasoning, not parallel silent racing. Confusion is not failure here—it is the active beginning of shared insight.
+    </p>
+  </div>
 
-Instead of solving placement problems, the group questions the framing itself: why do we solve these problems the way we do, and what assumptions hide inside interview preparation?
+  <div class="feature-item">
+    <div class="feature-icon-wrapper">💡</div>
+    <h3 class="feature-title">We do not worship speed</h3>
+    <p class="feature-text">
+      The goal is conceptual clarity, proofs, and intuitive maps. If an idea cannot be expressed simply, we do not understand it well enough yet.
+    </p>
+  </div>
+</div>
 
-[Explore this case](/codershigh/season-01/S01E05/)
+<div class="section-header">
+  <span class="section-tag">Reflections & Dialogues</span>
+  <h2 class="section-title">From the Community Archives</h2>
+</div>
 
-## Why Codershigh feels different
+<blockquote>
+  <p><strong>"Discovery Before Depth"</strong> — It is curiosity and exposure that spark the fire of learning before formal depth can even begin to make sense.</p>
+</blockquote>
 
-- **We stay with the question.** A session may spend a surprising amount of time just understanding what a problem is actually asking.
-- **We think together.** The real method is collective reasoning, not parallel silent problem-solving.
-- **We do not worship speed.** The goal is clarity, not quickness.
-
-## From the podcast
-
-- [Discovery Before Depth](/codershigh/march14-03-26/) — a reflective essay on curiosity, employability, competition, and the unresolved tension between education for life and education for livelihood.
-- [When Learning Stops Walking Straight](/codershigh/podcast/) — a reflective essay on learner attention, non-linear exploration, and the challenge of designing education for a changing cognitive environment.
-
-## From the blog
-
-- [A Conversation with Mudit on Codershigh](/codershigh/conversation-with-mudit/) — a speaker-separated conversation about why Codershigh matters and how similar spaces might spread to other colleges.
+<ul>
+  <li>
+    <a href="{{ "/march14-03-26/" | relative_url }}"><strong>Discovery Before Depth</strong></a> — A reflective essay on curiosity, employability, competition, and the tension between education for life and education for livelihood.
+  </li>
+  <li>
+    <a href="{{ "/podcast/" | relative_url }}"><strong>When Learning Stops Walking Straight</strong></a> — An inquiry into learner attention, non-linear exploration, and designing pedagogy for an era of distraction.
+  </li>
+  <li>
+    <a href="{{ "/conversation-with-mudit/" | relative_url }}"><strong>A Conversation with Mudit on Codershigh</strong></a> — Discussion between Prof. Sudarshan and student Mudit on expanding thinking clubs across colleges in India.
+  </li>
+</ul>
