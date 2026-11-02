@@ -348,6 +348,53 @@ a {
   color: var(--text-primary);
 }
 
+.post-content {
+  h2 {
+    font-size: 1.45rem;
+    font-weight: 700;
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-subtle);
+    padding-bottom: 0.45rem;
+  }
+
+  h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+  }
+
+  p {
+    font-size: 1.02rem;
+    line-height: 1.75;
+    color: var(--text-secondary);
+    margin-bottom: 1.25rem;
+  }
+
+  ul, ol {
+    margin-bottom: 1.5rem;
+    padding-left: 1.25rem;
+
+    li {
+      margin-bottom: 0.65rem;
+      line-height: 1.65;
+      color: var(--text-secondary);
+
+      strong {
+        color: var(--text-primary);
+      }
+    }
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--border-subtle);
+    margin: 2.25rem 0;
+  }
+}
+
 // Kramdown Table of Contents Box
 #markdown-toc {
   background: var(--bg-surface);
